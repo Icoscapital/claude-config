@@ -24,6 +24,9 @@ statsig/
 .DS_Store
 Thumbs.db
 
+# Backup script log
+backup.log
+
 # Conversation transcripts — contain pasted secrets and grow unbounded.
 # Keep only the auto-memory subfolder, which holds durable facts.
 projects/*
