@@ -1,0 +1,17 @@
+{
+  "autoUpdatesChannel": "latest",
+  "theme": "light",
+  "permissions": {
+    "allow": [
+      "mcp__plugin_dropin-pipedrive_dropin-pipedrive__lookup_existing",
+      "mcp__plugin_dropin-pipedrive_dropin-pipedrive__get_my_identity",
+      "mcp__ccd_session__mark_chapter",
+      "mcp__ccd_session_mgmt__search_session_transcripts",
+      "WebSearch(*)",
+      "WebFetch(*)",
+      "Bash(mkdir *)",
+      "Bash(cp *)",
+      "Bash(find *)"
+    ]
+  }
+}

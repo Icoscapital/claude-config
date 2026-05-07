@@ -1,0 +1,33 @@
+# Auth tokens & secrets — NEVER commit
+.credentials.json
+**/credentials*
+**/.env*
+.claude/settings.local.json
+**/settings.local.json
+
+# Ephemeral runtime state & caches
+cache/
+downloads/
+paste-cache/
+file-history/
+shell-snapshots/
+session-env/
+telemetry/
+backups/
+history.jsonl
+mcp-needs-auth-cache.json
+policy-limits.json
+todos/
+statsig/
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Conversation transcripts — contain pasted secrets and grow unbounded.
+# Keep only the auto-memory subfolder, which holds durable facts.
+projects/*
+!projects/C--Users-nitye--claude/
+projects/C--Users-nitye--claude/*
+!projects/C--Users-nitye--claude/memory/
+sessions/

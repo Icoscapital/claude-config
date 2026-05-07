@@ -1,0 +1,2 @@
+- [Claude API token optimization defaults](claude-api-token-optimization.md) — default to prompt caching + verify cache reads + audit for silent invalidators when writing Claude API code
+- [Surface cheaper Claude API tiers proactively](claude-api-cost-tier-options.md) — ask before batches (latency tradeoff), tell before downgrading model (intelligence tradeoff)
