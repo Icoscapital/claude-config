@@ -1,6 +1,6 @@
 ---
 name: icosfit-feedback
-description: Icos Capital investment evaluator feedback handler. Triggers whenever the user says "icosfit feedback", "icos feedback", "feedback for icosfit", or "update icosfit" followed by any content. Captures free-form feedback — scoring corrections, LP intelligence updates, sector pricing data, new sources, false positives, false negatives, diligence outcomes — and writes it to the right knowledge base file so future evaluations improve automatically. Also triggers when user says things like "icosfit should know that...", "add to icosfit...", "tell icosfit that...", or "icosfit remember...".
+description: Icos Capital investment evaluator feedback handler. Captures free-form feedback (scoring corrections, LP intel, sector pricing, sources, false pos/neg, diligence outcomes) and writes it to the right knowledge base file so future evaluations improve. Triggers on "icosfit feedback", "icos feedback", "update icosfit", "add to icosfit", "icosfit should know/remember...".
 ---
 
 # Icosfit Feedback Handler

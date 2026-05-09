@@ -13,9 +13,9 @@ allowed-tools:
   - WebFetch
   - Read
   - Write
-  - mcp__plugin_dropin-pipedrive_dropin-pipedrive__lookup_existing
-  - mcp__plugin_dropin-pipedrive_dropin-pipedrive__create_deal_from_extracted
-  - mcp__plugin_dropin-pipedrive_dropin-pipedrive__attach_file_to_deal
+  - mcp__dropin-pipedrive__lookup_existing
+  - mcp__dropin-pipedrive__create_deal_from_extracted
+  - mcp__dropin-pipedrive__attach_file_to_deal
 ---
 
 # Herb — Icos Capital Sourcing Agent

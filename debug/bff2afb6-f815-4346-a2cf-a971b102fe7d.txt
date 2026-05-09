@@ -1,0 +1,1103 @@
+2026-05-08T06:56:30.842Z [DEBUG] MDM settings load completed in 18ms
+2026-05-08T06:56:30.879Z [DEBUG] Broken symlink or missing file encountered for settings.json at path: C:\Users\nitye\.claude\settings.local.json
+2026-05-08T06:56:30.880Z [DEBUG] Broken symlink or missing file encountered for settings.json at path: C:\Program Files\ClaudeCode\managed-settings.json
+2026-05-08T06:56:30.880Z [DEBUG] CA certs: Config fallback - globalEnv keys: , settingsEnv keys: none
+2026-05-08T06:56:30.882Z [DEBUG] [init] configureGlobalMTLS starting
+2026-05-08T06:56:30.882Z [DEBUG] [init] configureGlobalMTLS complete
+2026-05-08T06:56:30.882Z [DEBUG] [init] configureGlobalAgents starting
+2026-05-08T06:56:30.883Z [DEBUG] CA certs: stores=bundled,system, extraCertsPath=undefined
+2026-05-08T06:56:30.885Z [DEBUG] CA certs: Loaded 145 bundled root certificates
+2026-05-08T06:56:30.893Z [DEBUG] CA certs: system store returned empty
+2026-05-08T06:56:30.894Z [DEBUG] mTLS: Creating HTTPS agent with custom certificates
+2026-05-08T06:56:30.894Z [DEBUG] [init] configureGlobalAgents complete
+2026-05-08T06:56:30.930Z [DEBUG] Using bash path: "C:\Program Files\Git\bin\bash.exe"
+2026-05-08T06:56:30.932Z [DEBUG] Error log sink initialized
+2026-05-08T06:56:30.941Z [DEBUG] Preserving file permissions: 100666
+2026-05-08T06:56:30.941Z [DEBUG] Writing to temp file: C:\Users\nitye\.claude.json.tmp.9388.1778223390941
+2026-05-08T06:56:30.942Z [DEBUG] Temp file written successfully, size: 25370 bytes
+2026-05-08T06:56:30.943Z [DEBUG] Applied original permissions to temp file
+2026-05-08T06:56:30.943Z [DEBUG] Renaming C:\Users\nitye\.claude.json.tmp.9388.1778223390941 to C:\Users\nitye\.claude.json
+2026-05-08T06:56:30.944Z [DEBUG] File C:\Users\nitye\.claude.json written atomically
+2026-05-08T06:56:30.947Z [DEBUG] Applying permission update: Adding 18 allow rule(s) to destination 'userSettings': ["mcp__plugin_dropin-pipedrive_dropin-pipedrive__lookup_existing","mcp__plugin_dropin-pipedrive_dropin-pipedrive__get_my_identity","mcp__plugin_dropin-pipedrive_dropin-pipedrive__create_deal_from_extracted","mcp__plugin_dropin-pipedrive_dropin-pipedrive__attach_file_to_deal","mcp__ccd_session__mark_chapter","mcp__ccd_session_mgmt__search_session_transcripts","mcp__scheduled-tasks__list_scheduled_tasks","mcp__scheduled-tasks__update_scheduled_task","mcp__scheduled-tasks__create_scheduled_task","WebSearch","WebFetch","Bash(mkdir *)","Bash(cp *)","Bash(find *)","Bash(python \"C:\\\\Users\\\\nitye\\\\IcosCapital\\\\ICOS-New Deals - Documenten\\\\claude-stuff-donot-touch\\\\herb\\\\scripts\\\\email_check.py\")","Bash(python \"C:\\\\Users\\\\nitye\\\\IcosCapital\\\\ICOS-New Deals - Documenten\\\\claude-stuff-donot-touch\\\\herb\\\\scripts\\\\email_send.py\")","Bash(pip install *)","Bash(pip install * -q)"]
+2026-05-08T06:56:30.948Z [DEBUG] Applying permission update: Adding 18 allow rule(s) to destination 'projectSettings': ["mcp__plugin_dropin-pipedrive_dropin-pipedrive__lookup_existing","mcp__plugin_dropin-pipedrive_dropin-pipedrive__get_my_identity","mcp__plugin_dropin-pipedrive_dropin-pipedrive__create_deal_from_extracted","mcp__plugin_dropin-pipedrive_dropin-pipedrive__attach_file_to_deal","mcp__ccd_session__mark_chapter","mcp__ccd_session_mgmt__search_session_transcripts","mcp__scheduled-tasks__list_scheduled_tasks","mcp__scheduled-tasks__update_scheduled_task","mcp__scheduled-tasks__create_scheduled_task","WebSearch","WebFetch","Bash(mkdir *)","Bash(cp *)","Bash(find *)","Bash(python \"C:\\\\Users\\\\nitye\\\\IcosCapital\\\\ICOS-New Deals - Documenten\\\\claude-stuff-donot-touch\\\\herb\\\\scripts\\\\email_check.py\")","Bash(python \"C:\\\\Users\\\\nitye\\\\IcosCapital\\\\ICOS-New Deals - Documenten\\\\claude-stuff-donot-touch\\\\herb\\\\scripts\\\\email_send.py\")","Bash(pip install *)","Bash(pip install * -q)"]
+2026-05-08T06:56:30.948Z [DEBUG] Git remote URL: null
+2026-05-08T06:56:30.948Z [DEBUG] No git remote URL found
+2026-05-08T06:56:30.951Z [DEBUG] [STARTUP] Loading MCP configs...
+2026-05-08T06:56:30.954Z [DEBUG] [STARTUP] Running setup()...
+2026-05-08T06:56:30.956Z [DEBUG] Loading skills from: managed=C:\Program Files\ClaudeCode\.claude\skills, user=C:\Users\nitye\.claude\skills, project=[]
+2026-05-08T06:56:30.960Z [DEBUG] Error log sink initialized
+2026-05-08T06:56:30.971Z [DEBUG] [Claude in Chrome] Found chrome profiles: Default
+2026-05-08T06:56:30.972Z [DEBUG] Failed to stat directory C:\Program Files\ClaudeCode\.claude\commands: ENOENT: no such file or directory, stat 'C:\Program Files\ClaudeCode\.claude\commands'
+2026-05-08T06:56:30.972Z [DEBUG] Failed to stat directory C:\Users\nitye\.claude\commands: ENOENT: no such file or directory, stat 'C:\Users\nitye\.claude\commands'
+2026-05-08T06:56:30.973Z [DEBUG] Failed to stat directory C:\Program Files\ClaudeCode\.claude\agents: ENOENT: no such file or directory, stat 'C:\Program Files\ClaudeCode\.claude\agents'
+2026-05-08T06:56:30.973Z [DEBUG] Failed to stat directory C:\Users\nitye\.claude\agents: ENOENT: no such file or directory, stat 'C:\Users\nitye\.claude\agents'
+2026-05-08T06:56:30.980Z [DEBUG] installed_plugins.json doesn't exist, returning empty V2 object
+2026-05-08T06:56:30.981Z [DEBUG] Found 0 plugins (0 enabled, 0 disabled)
+2026-05-08T06:56:30.981Z [DEBUG] getPluginSkills: Processing 0 enabled plugins
+2026-05-08T06:56:30.982Z [DEBUG] Registered 0 hooks from 0 plugins
+2026-05-08T06:56:30.982Z [DEBUG] Total plugin skills loaded: 0
+2026-05-08T06:56:30.982Z [DEBUG] Total plugin commands loaded: 0
+2026-05-08T06:56:30.982Z [DEBUG] Total plugin agents loaded: 0
+2026-05-08T06:56:30.983Z [DEBUG] [Claude in Chrome] Extension fcoeoabgfenejglbffodgkkbkcdhcgfn found in chrome Default
+2026-05-08T06:56:30.987Z [DEBUG] Preserving file permissions: 100666
+2026-05-08T06:56:30.987Z [DEBUG] Writing to temp file: C:\Users\nitye\.claude.json.tmp.9388.1778223390987
+2026-05-08T06:56:30.988Z [DEBUG] Temp file written successfully, size: 25412 bytes
+2026-05-08T06:56:30.989Z [DEBUG] Applied original permissions to temp file
+2026-05-08T06:56:30.989Z [DEBUG] Renaming C:\Users\nitye\.claude.json.tmp.9388.1778223390987 to C:\Users\nitye\.claude.json
+2026-05-08T06:56:30.989Z [DEBUG] File C:\Users\nitye\.claude.json written atomically
+2026-05-08T06:56:30.999Z [DEBUG] [STARTUP] setup() completed in 44ms
+2026-05-08T06:56:31.000Z [DEBUG] [STARTUP] Loading commands and agents...
+2026-05-08T06:56:31.000Z [DEBUG] [ToolSearch:optimistic] mode=tst, ENABLE_TOOL_SEARCH=undefined, result=true
+2026-05-08T06:56:31.005Z [DEBUG] Loaded 4 unique skills (4 unconditional, 0 conditional, managed: 0, user: 4, project: 0, additional: 0, legacy commands: 0)
+2026-05-08T06:56:31.005Z [DEBUG] getSkills returning: 4 skill dir commands, 0 plugin skills, 9 bundled skills, 0 builtin plugin skills
+2026-05-08T06:56:31.007Z [DEBUG] [STARTUP] Commands and agents loaded in 7ms
+2026-05-08T06:56:31.009Z [DEBUG] [STARTUP] Running showSetupScreens()...
+2026-05-08T06:56:31.018Z [DEBUG] Cleared CA certificates cache
+2026-05-08T06:56:31.018Z [DEBUG] Cleared mTLS configuration cache
+2026-05-08T06:56:31.018Z [DEBUG] Cleared proxy agent cache
+2026-05-08T06:56:31.018Z [DEBUG] CA certs: stores=bundled,system, extraCertsPath=undefined
+2026-05-08T06:56:31.019Z [DEBUG] CA certs: Loaded 145 bundled root certificates
+2026-05-08T06:56:31.019Z [DEBUG] CA certs: system store returned empty
+2026-05-08T06:56:31.019Z [DEBUG] mTLS: Creating HTTPS agent with custom certificates
+2026-05-08T06:56:31.020Z [DEBUG] Grove: Cache stale, returning cached data and refreshing in background
+2026-05-08T06:56:31.021Z [DEBUG] Not in a GitHub repository, skipping path mapping update
+2026-05-08T06:56:31.024Z [DEBUG] [keybindings] KeybindingSetup initialized with 121 bindings, 0 warnings
+2026-05-08T06:56:31.029Z [DEBUG] [keybindings] Watching for changes to C:\Users\nitye\.claude\keybindings.json
+2026-05-08T06:56:31.038Z [DEBUG] [Perfetto] initializePerfettoTracing called, env value: undefined
+2026-05-08T06:56:31.039Z [DEBUG] [3P telemetry] isTelemetryEnabled=false (CLAUDE_CODE_ENABLE_TELEMETRY=undefined)
+2026-05-08T06:56:31.061Z [DEBUG] XTVERSION: no reply (terminal ignored query)
+2026-05-08T06:56:31.061Z [DEBUG] DECSTBM: gated (TMUX=unset ZELLIJ=unset TERM_PROGRAM=unset TERM=unset)
+2026-05-08T06:56:31.076Z [DEBUG] Preserving file permissions: 100666
+2026-05-08T06:56:31.076Z [DEBUG] Writing to temp file: C:\Users\nitye\.claude.json.tmp.9388.1778223391075
+2026-05-08T06:56:31.077Z [DEBUG] Temp file written successfully, size: 25412 bytes
+2026-05-08T06:56:31.078Z [DEBUG] Applied original permissions to temp file
+2026-05-08T06:56:31.078Z [DEBUG] Renaming C:\Users\nitye\.claude.json.tmp.9388.1778223391075 to C:\Users\nitye\.claude.json
+2026-05-08T06:56:31.079Z [DEBUG] File C:\Users\nitye\.claude.json written atomically
+2026-05-08T06:56:31.110Z [DEBUG] Preserving file permissions: 100666
+2026-05-08T06:56:31.111Z [DEBUG] Writing to temp file: C:\Users\nitye\.claude.json.tmp.9388.1778223391110
+2026-05-08T06:56:31.112Z [DEBUG] Temp file written successfully, size: 25565 bytes
+2026-05-08T06:56:31.112Z [DEBUG] Applied original permissions to temp file
+2026-05-08T06:56:31.112Z [DEBUG] Renaming C:\Users\nitye\.claude.json.tmp.9388.1778223391110 to C:\Users\nitye\.claude.json
+2026-05-08T06:56:31.113Z [DEBUG] File C:\Users\nitye\.claude.json written atomically
+2026-05-08T06:56:32.520Z [DEBUG] Preserving file permissions: 100666
+2026-05-08T06:56:32.520Z [DEBUG] Writing to temp file: C:\Users\nitye\.claude.json.tmp.9388.1778223392520
+2026-05-08T06:56:32.521Z [DEBUG] Temp file written successfully, size: 25565 bytes
+2026-05-08T06:56:32.522Z [DEBUG] Applied original permissions to temp file
+2026-05-08T06:56:32.522Z [DEBUG] Renaming C:\Users\nitye\.claude.json.tmp.9388.1778223392520 to C:\Users\nitye\.claude.json
+2026-05-08T06:56:32.523Z [DEBUG] File C:\Users\nitye\.claude.json written atomically
+2026-05-08T06:56:32.547Z [DEBUG] [STARTUP] showSetupScreens() completed in 1538ms
+2026-05-08T06:56:32.548Z [DEBUG] [LSP MANAGER] initializeLspServerManager() called
+2026-05-08T06:56:32.548Z [DEBUG] [LSP MANAGER] Created manager instance, state=pending
+2026-05-08T06:56:32.548Z [DEBUG] [LSP MANAGER] Starting async initialization (generation 1)
+2026-05-08T06:56:32.548Z [DEBUG] Starting background startup prefetches
+2026-05-08T06:56:32.549Z [DEBUG] [API:request] Creating client, ANTHROPIC_CUSTOM_HEADERS present: false, has Authorization header: false
+2026-05-08T06:56:32.549Z [DEBUG] [API:auth] OAuth token check starting
+2026-05-08T06:56:32.549Z [DEBUG] [Bootstrap] Fetching
+2026-05-08T06:56:32.552Z [DEBUG] [STARTUP] MCP configs resolved in 32ms (awaited at +1601ms)
+2026-05-08T06:56:32.555Z [DEBUG] [Reconnection] computeInitialTeamContext: No teammate context set (not a teammate)
+2026-05-08T06:56:32.557Z [DEBUG] Preserving file permissions: 100666
+2026-05-08T06:56:32.557Z [DEBUG] Writing to temp file: C:\Users\nitye\.claude.json.tmp.9388.1778223392557
+2026-05-08T06:56:32.558Z [DEBUG] Temp file written successfully, size: 25565 bytes
+2026-05-08T06:56:32.559Z [DEBUG] Applied original permissions to temp file
+2026-05-08T06:56:32.559Z [DEBUG] Renaming C:\Users\nitye\.claude.json.tmp.9388.1778223392557 to C:\Users\nitye\.claude.json
+2026-05-08T06:56:32.560Z [DEBUG] File C:\Users\nitye\.claude.json written atomically
+2026-05-08T06:56:32.560Z [DEBUG] Total LSP servers loaded: 0
+2026-05-08T06:56:32.560Z [DEBUG] Initialized versioned plugins system with 0 plugins
+2026-05-08T06:56:32.560Z [DEBUG] [LSP SERVER MANAGER] getAllLspServers returned 0 server(s)
+2026-05-08T06:56:32.561Z [DEBUG] LSP manager initialized with 0 servers
+2026-05-08T06:56:32.562Z [DEBUG] LSP server manager initialized successfully
+2026-05-08T06:56:32.562Z [DEBUG] LSP notification handlers registered successfully for all 0 server(s)
+2026-05-08T06:56:32.581Z [DEBUG] [keybindings] KeybindingSetup initialized with 121 bindings, 0 warnings
+2026-05-08T06:56:32.613Z [DEBUG] Preserving file permissions: 100666
+2026-05-08T06:56:32.613Z [DEBUG] Writing to temp file: C:\Users\nitye\.claude.json.tmp.9388.1778223392613
+2026-05-08T06:56:32.614Z [DEBUG] Temp file written successfully, size: 25565 bytes
+2026-05-08T06:56:32.615Z [DEBUG] Applied original permissions to temp file
+2026-05-08T06:56:32.615Z [DEBUG] Renaming C:\Users\nitye\.claude.json.tmp.9388.1778223392613 to C:\Users\nitye\.claude.json
+2026-05-08T06:56:32.616Z [DEBUG] File C:\Users\nitye\.claude.json written atomically
+2026-05-08T06:56:32.630Z [DEBUG] Preserving file permissions: 100666
+2026-05-08T06:56:32.630Z [DEBUG] Writing to temp file: C:\Users\nitye\.claude.json.tmp.9388.1778223392630
+2026-05-08T06:56:32.631Z [DEBUG] Temp file written successfully, size: 25565 bytes
+2026-05-08T06:56:32.631Z [DEBUG] Applied original permissions to temp file
+2026-05-08T06:56:32.632Z [DEBUG] Renaming C:\Users\nitye\.claude.json.tmp.9388.1778223392630 to C:\Users\nitye\.claude.json
+2026-05-08T06:56:32.633Z [DEBUG] File C:\Users\nitye\.claude.json written atomically
+2026-05-08T06:56:32.636Z [DEBUG] [FileIndex] getProjectFiles called, respectGitignore=true
+2026-05-08T06:56:32.636Z [DEBUG] [FileIndex] getFilesUsingGit called
+2026-05-08T06:56:32.636Z [DEBUG] [FileIndex] not a git repo, returning null
+2026-05-08T06:56:32.639Z [DEBUG] [claudeai-mcp] Fetching from https://api.anthropic.com/v1/mcp_servers?limit=1000
+2026-05-08T06:56:32.641Z [DEBUG] [REPL:mount] REPL mounted, disabled=false
+2026-05-08T06:56:32.642Z [DEBUG] performStartupChecks called
+2026-05-08T06:56:32.643Z [DEBUG] Starting background plugin installations
+2026-05-08T06:56:32.645Z [DEBUG] [ScheduledTasks] scheduler start() — enabled=false, hasTasks=false
+2026-05-08T06:56:32.660Z [DEBUG] High write ratio: blit=0, write=1045 (100.0% writes), screen=20x120
+2026-05-08T06:56:32.665Z [DEBUG] [FileIndex] git ls-files returned null, falling back to ripgrep
+2026-05-08T06:56:32.666Z [DEBUG] Official marketplace auto-install skipped: already_attempted
+2026-05-08T06:56:32.667Z [DEBUG] performBackgroundPluginInstallations called
+2026-05-08T06:56:32.686Z [DEBUG] getSkills returning: 4 skill dir commands, 0 plugin skills, 9 bundled skills, 0 builtin plugin skills
+2026-05-08T06:56:32.687Z [DEBUG] [auto-mode] verifyAutoModeGateAccess: enabledState=disabled disabledBySettings=false model=claude-sonnet-4-6 modelSupported=true disableFastModeBreakerFires=false carouselAvailable=false canEnterAuto=false
+2026-05-08T06:56:32.687Z [WARN] auto mode disabled: tengu_auto_mode_config.enabled === "disabled" (circuit breaker)
+2026-05-08T06:56:32.688Z [DEBUG] AutoUpdaterWrapper: Installation type: native
+2026-05-08T06:56:32.688Z [DEBUG] [auto-mode] kickOutOfAutoIfNeeded applying: ctx.mode=default ctx.prePlanMode=undefined reason=circuit-breaker
+2026-05-08T06:56:32.688Z [DEBUG] [auto-mode] verifyAutoModeGateAccess setAvailable: true -> false
+2026-05-08T06:56:32.690Z [DEBUG] [API:auth] OAuth token check complete
+2026-05-08T06:56:32.693Z [DEBUG] [API REQUEST] /v1/messages x-client-request-id=fd2c9088-2eba-4380-9ea7-dc4d3aaa0d9f source=quota_check
+2026-05-08T06:56:32.700Z [DEBUG] Failed to stat directory C:\Users\nitye\.claude\output-styles: ENOENT: no such file or directory, stat 'C:\Users\nitye\.claude\output-styles'
+2026-05-08T06:56:32.700Z [DEBUG] Failed to stat directory C:\Program Files\ClaudeCode\.claude\output-styles: ENOENT: no such file or directory, stat 'C:\Program Files\ClaudeCode\.claude\output-styles'
+2026-05-08T06:56:32.701Z [DEBUG] Failed to stat directory C:\Program Files\ClaudeCode\.claude\skills: ENOENT: no such file or directory, stat 'C:\Program Files\ClaudeCode\.claude\skills'
+2026-05-08T06:56:32.701Z [DEBUG] Failed to stat directory C:\Users\nitye\.claude\workflows: ENOENT: no such file or directory, stat 'C:\Users\nitye\.claude\workflows'
+2026-05-08T06:56:32.702Z [DEBUG] Failed to stat directory C:\Program Files\ClaudeCode\.claude\workflows: ENOENT: no such file or directory, stat 'C:\Program Files\ClaudeCode\.claude\workflows'
+2026-05-08T06:56:32.702Z [DEBUG] Failed to stat directory C:\Program Files\ClaudeCode\.claude\routines: ENOENT: no such file or directory, stat 'C:\Program Files\ClaudeCode\.claude\routines'
+2026-05-08T06:56:32.702Z [DEBUG] Failed to stat directory C:\Users\nitye\.claude\routines: ENOENT: no such file or directory, stat 'C:\Users\nitye\.claude\routines'
+2026-05-08T06:56:32.703Z [DEBUG] Found 0 plugins (0 enabled, 0 disabled)
+2026-05-08T06:56:32.721Z [DEBUG] Watching for changes in skill/command directories: C:\Users\nitye\.claude\skills, C:\Users\nitye\.claude\skills...
+2026-05-08T06:56:32.732Z [DEBUG] Watching for changes in setting files C:\Users\nitye\.claude\settings.json, C:\Users\nitye\.claude\settings.local.json...
+2026-05-08T06:56:32.759Z [DEBUG] No CLAUDE.md/rules files found
+2026-05-08T06:56:32.840Z [DEBUG] [LSP MANAGER] reinitializeLspServerManager() called
+2026-05-08T06:56:32.841Z [DEBUG] [LSP MANAGER] initializeLspServerManager() called
+2026-05-08T06:56:32.841Z [DEBUG] [LSP MANAGER] Created manager instance, state=pending
+2026-05-08T06:56:32.841Z [DEBUG] [LSP MANAGER] Starting async initialization (generation 2)
+2026-05-08T06:56:32.842Z [DEBUG] Loaded plugins - Enabled: 0, Disabled: 0, Commands: 0, Agents: 0, Errors: 0
+2026-05-08T06:56:32.843Z [DEBUG] Total LSP servers loaded: 0
+2026-05-08T06:56:32.844Z [DEBUG] [LSP SERVER MANAGER] getAllLspServers returned 0 server(s)
+2026-05-08T06:56:32.844Z [DEBUG] LSP manager initialized with 0 servers
+2026-05-08T06:56:32.845Z [DEBUG] LSP server manager initialized successfully
+2026-05-08T06:56:32.845Z [DEBUG] LSP notification handlers registered successfully for all 0 server(s)
+2026-05-08T06:56:32.872Z [DEBUG] Preserving file permissions: 100666
+2026-05-08T06:56:32.872Z [DEBUG] Writing to temp file: C:\Users\nitye\.claude.json.tmp.9388.1778223392872
+2026-05-08T06:56:32.875Z [DEBUG] Temp file written successfully, size: 25564 bytes
+2026-05-08T06:56:32.875Z [DEBUG] Applied original permissions to temp file
+2026-05-08T06:56:32.876Z [DEBUG] Renaming C:\Users\nitye\.claude.json.tmp.9388.1778223392872 to C:\Users\nitye\.claude.json
+2026-05-08T06:56:32.879Z [DEBUG] File C:\Users\nitye\.claude.json written atomically
+2026-05-08T06:56:32.880Z [DEBUG] Org fast mode: enabled
+2026-05-08T06:56:32.883Z [DEBUG] [Bootstrap] Fetch ok
+2026-05-08T06:56:32.884Z [DEBUG] [Bootstrap] Cache updated, persisting to disk
+2026-05-08T06:56:32.893Z [DEBUG] Preserving file permissions: 100666
+2026-05-08T06:56:32.893Z [DEBUG] Writing to temp file: C:\Users\nitye\.claude.json.tmp.9388.1778223392893
+2026-05-08T06:56:32.895Z [DEBUG] Temp file written successfully, size: 25566 bytes
+2026-05-08T06:56:32.896Z [DEBUG] Applied original permissions to temp file
+2026-05-08T06:56:32.896Z [DEBUG] Renaming C:\Users\nitye\.claude.json.tmp.9388.1778223392893 to C:\Users\nitye\.claude.json
+2026-05-08T06:56:32.898Z [DEBUG] File C:\Users\nitye\.claude.json written atomically
+2026-05-08T06:56:32.907Z [DEBUG] [claudeai-mcp] Fetched 4 servers
+2026-05-08T06:56:32.914Z [DEBUG] MCP server "claude.ai Pipedrive": Initializing claude.ai proxy transport for server mcpsrv_01TES8UBLyZedkrZXCZ1BSWE
+2026-05-08T06:56:32.915Z [DEBUG] MCP server "claude.ai Pipedrive": Using claude.ai proxy at https://mcp-proxy.anthropic.com/v1/mcp/mcpsrv_01TES8UBLyZedkrZXCZ1BSWE
+2026-05-08T06:56:32.916Z [DEBUG] MCP server "claude.ai Pipedrive": claude.ai proxy transport created successfully
+2026-05-08T06:56:32.926Z [DEBUG] MCP server "claude.ai Pipedrive": Starting connection with timeout of 30000ms
+2026-05-08T06:56:32.927Z [DEBUG] MCP server "claude.ai Google Drive": Initializing claude.ai proxy transport for server mcpsrv_01DFNvSDsoACWovHngu87FK5
+2026-05-08T06:56:32.928Z [DEBUG] MCP server "claude.ai Google Drive": Using claude.ai proxy at https://mcp-proxy.anthropic.com/v1/mcp/mcpsrv_01DFNvSDsoACWovHngu87FK5
+2026-05-08T06:56:32.929Z [DEBUG] MCP server "claude.ai Google Drive": claude.ai proxy transport created successfully
+2026-05-08T06:56:32.932Z [DEBUG] MCP server "claude.ai Google Drive": Starting connection with timeout of 30000ms
+2026-05-08T06:56:32.933Z [DEBUG] MCP server "claude.ai Gmail": Initializing claude.ai proxy transport for server mcpsrv_01NURYT4zagAfASeY434cTiG
+2026-05-08T06:56:32.934Z [DEBUG] MCP server "claude.ai Gmail": Using claude.ai proxy at https://mcp-proxy.anthropic.com/v1/mcp/mcpsrv_01NURYT4zagAfASeY434cTiG
+2026-05-08T06:56:32.935Z [DEBUG] MCP server "claude.ai Gmail": claude.ai proxy transport created successfully
+2026-05-08T06:56:32.937Z [DEBUG] MCP server "claude.ai Gmail": Starting connection with timeout of 30000ms
+2026-05-08T06:56:32.938Z [DEBUG] MCP server "claude.ai Google Calendar": Initializing claude.ai proxy transport for server mcpsrv_01L16M3i5Csx2rTYT944H3V2
+2026-05-08T06:56:32.939Z [DEBUG] MCP server "claude.ai Google Calendar": Using claude.ai proxy at https://mcp-proxy.anthropic.com/v1/mcp/mcpsrv_01L16M3i5Csx2rTYT944H3V2
+2026-05-08T06:56:32.939Z [DEBUG] MCP server "claude.ai Google Calendar": claude.ai proxy transport created successfully
+2026-05-08T06:56:32.940Z [DEBUG] MCP server "claude.ai Google Calendar": Starting connection with timeout of 30000ms
+2026-05-08T06:56:32.950Z [DEBUG] Preserving file permissions: 100666
+2026-05-08T06:56:32.950Z [DEBUG] Writing to temp file: C:\Users\nitye\.claude.json.tmp.9388.1778223392950
+2026-05-08T06:56:32.953Z [DEBUG] Temp file written successfully, size: 25567 bytes
+2026-05-08T06:56:32.954Z [DEBUG] Applied original permissions to temp file
+2026-05-08T06:56:32.954Z [DEBUG] Renaming C:\Users\nitye\.claude.json.tmp.9388.1778223392950 to C:\Users\nitye\.claude.json
+2026-05-08T06:56:32.956Z [DEBUG] File C:\Users\nitye\.claude.json written atomically
+2026-05-08T06:56:33.014Z [DEBUG] XTVERSION: no reply (terminal ignored query)
+2026-05-08T06:56:33.017Z [DEBUG] DECSTBM: gated (TMUX=unset ZELLIJ=unset TERM_PROGRAM=unset TERM=unset)
+2026-05-08T06:56:33.023Z [DEBUG] Ripgrep first use test: PASSED (mode=embedded, path=C:\Users\nitye\.local\bin\claude.exe)
+2026-05-08T06:56:33.026Z [DEBUG] rg error (signal=undefined, code=2, stderr: rg: C:\Users\nitye\.claude\plugins\cache: IO error for operation on C:\Users\nitye\.claude\plugins\cache: The system cannot find the file specified. (os error 2)
+), 0 results
+2026-05-08T06:56:33.173Z [DEBUG] Checking for native installer update to version 2.1.133
+2026-05-08T06:56:33.314Z [DEBUG] MCP server "claude.ai Gmail": claude.ai proxy connection failed after 381ms: Streamable HTTP error: Error POSTing to endpoint: {"type":"error","error":{"type":"authentication_error","message":"MCP server requires authentication but no OAuth token is configured.","details":{"error_code":"mcp_unauthorized_no_token"}},"request_id":"req_011CapfYnHHmrf1tzMRHpZAy"}
+2026-05-08T06:56:33.315Z [ERROR] MCP server "claude.ai Gmail" Error: Streamable HTTP error: Error POSTing to endpoint: {"type":"error","error":{"type":"authentication_error","message":"MCP server requires authentication but no OAuth token is configured.","details":{"error_code":"mcp_unauthorized_no_token"}},"request_id":"req_011CapfYnHHmrf1tzMRHpZAy"}
+2026-05-08T06:56:33.315Z [DEBUG] MCP server "claude.ai Gmail": Authentication required for claude.ai proxy server
+2026-05-08T06:56:33.316Z [DEBUG] MCP server "claude.ai Google Calendar": claude.ai proxy connection failed after 378ms: Streamable HTTP error: Error POSTing to endpoint: {"type":"error","error":{"type":"authentication_error","message":"MCP server requires authentication but no OAuth token is configured.","details":{"error_code":"mcp_unauthorized_no_token"}},"request_id":"req_011CapfYnHYHWmdnKAk4NuDM"}
+2026-05-08T06:56:33.317Z [ERROR] MCP server "claude.ai Google Calendar" Error: Streamable HTTP error: Error POSTing to endpoint: {"type":"error","error":{"type":"authentication_error","message":"MCP server requires authentication but no OAuth token is configured.","details":{"error_code":"mcp_unauthorized_no_token"}},"request_id":"req_011CapfYnHYHWmdnKAk4NuDM"}
+2026-05-08T06:56:33.318Z [DEBUG] MCP server "claude.ai Google Calendar": Authentication required for claude.ai proxy server
+2026-05-08T06:56:33.334Z [DEBUG] Downloading native installer version 2.1.133
+2026-05-08T06:56:33.431Z [DEBUG] Preserving file permissions: 100666
+2026-05-08T06:56:33.432Z [DEBUG] Writing to temp file: C:\Users\nitye\.claude.json.tmp.9388.1778223393431
+2026-05-08T06:56:33.435Z [DEBUG] Temp file written successfully, size: 25579 bytes
+2026-05-08T06:56:33.436Z [DEBUG] Applied original permissions to temp file
+2026-05-08T06:56:33.436Z [DEBUG] Renaming C:\Users\nitye\.claude.json.tmp.9388.1778223393431 to C:\Users\nitye\.claude.json
+2026-05-08T06:56:33.438Z [DEBUG] File C:\Users\nitye\.claude.json written atomically
+2026-05-08T06:56:33.564Z [DEBUG] MCP server "claude.ai Google Drive": Successfully connected (transport: claudeai-proxy) in 637ms
+2026-05-08T06:56:33.565Z [DEBUG] MCP server "claude.ai Google Drive": Connection established with capabilities: {"hasTools":true,"hasPrompts":true,"hasResources":false,"hasResourceSubscribe":false,"serverVersion":{"name":"StatelessServer","version":"ESF"}}
+2026-05-08T06:56:33.565Z [DEBUG] [MCP] Server "claude.ai Google Drive" connected with subscribe=false
+2026-05-08T06:56:33.570Z [DEBUG] Preserving file permissions: 100666
+2026-05-08T06:56:33.570Z [DEBUG] Writing to temp file: C:\Users\nitye\.claude.json.tmp.9388.1778223393570
+2026-05-08T06:56:33.573Z [DEBUG] Temp file written successfully, size: 25645 bytes
+2026-05-08T06:56:33.574Z [DEBUG] Applied original permissions to temp file
+2026-05-08T06:56:33.574Z [DEBUG] Renaming C:\Users\nitye\.claude.json.tmp.9388.1778223393570 to C:\Users\nitye\.claude.json
+2026-05-08T06:56:33.577Z [DEBUG] File C:\Users\nitye\.claude.json written atomically
+2026-05-08T06:56:33.608Z [DEBUG] [mcp-registry] Loaded 197 official MCP URLs (legacy)
+2026-05-08T06:56:33.845Z [DEBUG] MCP server "claude.ai Google Drive": Channel notifications skipped: server did not declare claude/channel capability
+2026-05-08T06:56:36.804Z [DEBUG] rg error (signal=undefined, code=2, stderr: rg: .\Application Data: Access is denied. (os error 5)
+rg: .\AppData\Local\Application Data: Access is denied. (os error 5)
+rg: .\AppData\Local\History: Access is denied. (os error 5)
+rg: .\AppData\Local\Temporary Internet Files: Access is denied. (os error 5)
+rg: .\Cookies: Access is denied. (os error 5)
+rg: .\Local Settings: Access is denied. (os error 5)
+rg: .\My Documents: Access is denied. (os error 5)
+rg: .\NetHood: Access is denied. (os error 5)
+rg: .\PrintHood: Access is denied. (os error 5)
+rg: .\Recent: Access is denied. (os error 5)
+rg: .\Documents\My Music: Access is denied. (os error 5)
+rg: .\SendTo: Access is denied. (os error 5)
+rg: .\Documents\My Pictures: The system cannot find the file specified. (os error 2)
+rg: .\Start Menu: Access is denied. (os error 5)
+rg: .\Documents\My Videos: Access is denied. (os error 5)
+rg: .\Templates: Access is denied. (os error 5)
+rg: .\AppData\Local\Microsoft\Windows\Temporary Internet Files: Access is denied. (os error 5)
+rg: .\AppData\Local\Microsoft\Windows\INetCache\Content.IE5: Access is denied. (os error 5)
+rg: .\AppData\Local\Microsoft\Windows\INetCache\Low\Content.IE5: Access is denied. (os error 5)
+), 167254 results
+2026-05-08T06:56:50.327Z [DEBUG] [FileIndex] ripgrep: 167254 files in 17661ms
+2026-05-08T06:56:50.984Z [DEBUG] [FileIndex] cache refresh completed in 18348ms
+2026-05-08T06:56:51.034Z [DEBUG] Atomically installed binary to C:\Users\nitye\.local\share\claude\versions\2.1.133
+2026-05-08T06:56:51.237Z [DEBUG] Successfully updated to version 2.1.133
+2026-05-08T06:56:51.258Z [DEBUG] Acquired PID lock for 2.1.96 (PID 9388)
+2026-05-08T06:56:51.259Z [DEBUG] Released PID lock for 2.1.96
+2026-05-08T06:56:55.228Z [DEBUG] MCP server "claude.ai Pipedrive": Successfully connected (transport: claudeai-proxy) in 22315ms
+2026-05-08T06:56:55.228Z [DEBUG] MCP server "claude.ai Pipedrive": Connection established with capabilities: {"hasTools":true,"hasPrompts":false,"hasResources":false,"hasResourceSubscribe":false,"serverVersion":{"name":"pipedrive-connect","version":"1.0.0"}}
+2026-05-08T06:56:55.228Z [DEBUG] [MCP] Server "claude.ai Pipedrive" connected with subscribe=false
+2026-05-08T06:56:55.233Z [DEBUG] Preserving file permissions: 100666
+2026-05-08T06:56:55.233Z [DEBUG] Writing to temp file: C:\Users\nitye\.claude.json.tmp.9388.1778223415232
+2026-05-08T06:56:55.236Z [DEBUG] Temp file written successfully, size: 25672 bytes
+2026-05-08T06:56:55.236Z [DEBUG] Applied original permissions to temp file
+2026-05-08T06:56:55.236Z [DEBUG] Renaming C:\Users\nitye\.claude.json.tmp.9388.1778223415232 to C:\Users\nitye\.claude.json
+2026-05-08T06:56:55.237Z [DEBUG] File C:\Users\nitye\.claude.json written atomically
+2026-05-08T06:56:55.655Z [DEBUG] MCP server "claude.ai Pipedrive": Channel notifications skipped: server did not declare claude/channel capability
+2026-05-08T06:57:24.900Z [DEBUG] [onSubmit] early return: suggestions showing (count=23)
+2026-05-08T06:57:24.911Z [DEBUG] Preserving file permissions: 100666
+2026-05-08T06:57:24.911Z [DEBUG] Writing to temp file: C:\Users\nitye\.claude.json.tmp.9388.1778223444911
+2026-05-08T06:57:24.912Z [DEBUG] Temp file written successfully, size: 25672 bytes
+2026-05-08T06:57:24.912Z [DEBUG] Applied original permissions to temp file
+2026-05-08T06:57:24.913Z [DEBUG] Renaming C:\Users\nitye\.claude.json.tmp.9388.1778223444911 to C:\Users\nitye\.claude.json
+2026-05-08T06:57:24.913Z [DEBUG] File C:\Users\nitye\.claude.json written atomically
+2026-05-08T06:57:24.919Z [DEBUG] LSP Diagnostics: getLSPDiagnosticAttachments called
+2026-05-08T06:57:24.919Z [DEBUG] LSP Diagnostics: Checking registry - 0 pending
+2026-05-08T06:57:24.920Z [DEBUG] Hooks: Found 0 total hooks in registry
+2026-05-08T06:57:24.920Z [DEBUG] Sending 10 skills via attachment (initial, 10 total sent)
+2026-05-08T06:57:24.920Z [DEBUG] Hooks: checkForNewResponses returning 0 responses
+2026-05-08T06:57:24.924Z [DEBUG] FileHistory: Added snapshot for db68b2d5-57ea-40ce-9f4d-cb344a0afeb2, tracking 0 files
+2026-05-08T06:57:24.927Z [DEBUG] Total plugin output styles loaded: 0
+2026-05-08T06:57:24.929Z [DEBUG] [useDeferredValue] Messages deferred by 4 (0→4)
+2026-05-08T06:57:24.943Z [DEBUG] [useDeferredValue] Messages deferred by 4 (0→4)
+2026-05-08T06:57:24.945Z [DEBUG] High write ratio: blit=0, write=1136 (100.0% writes), screen=23x120
+2026-05-08T06:57:24.946Z [DEBUG] AutoUpdaterWrapper: Installation type: native
+2026-05-08T06:57:24.954Z [DEBUG] autocompact: tokens=1057 threshold=167000 effectiveWindow=180000
+2026-05-08T06:57:24.959Z [DEBUG] Dynamic tool loading: 0/37 deferred tools included
+2026-05-08T06:57:24.961Z [DEBUG] attribution header x-anthropic-billing-header: cc_version=2.1.101.ff7; cc_entrypoint=cli; cch=00000;
+2026-05-08T06:57:24.962Z [DEBUG] [API:request] Creating client, ANTHROPIC_CUSTOM_HEADERS present: false, has Authorization header: false
+2026-05-08T06:57:24.962Z [DEBUG] [API:auth] OAuth token check starting
+2026-05-08T06:57:24.966Z [DEBUG] [API:auth] OAuth token check complete
+2026-05-08T06:57:24.967Z [DEBUG] [API REQUEST] /v1/messages x-client-request-id=86460d4b-3b66-4da6-ac18-6fb982154662 source=repl_main_thread
+2026-05-08T06:57:24.969Z [DEBUG] [useDeferredValue] Messages deferred by 4 (0→4)
+2026-05-08T06:57:24.973Z [DEBUG] [useDeferredValue] Messages deferred by 4 (0→4)
+2026-05-08T06:57:24.992Z [DEBUG] High write ratio: blit=0, write=1156 (100.0% writes), screen=24x120
+2026-05-08T06:57:25.095Z [DEBUG] Checking for native installer update to version 2.1.133
+2026-05-08T06:57:25.099Z [DEBUG] Version 2.1.133 already installed, updating symlink
+2026-05-08T06:57:25.101Z [DEBUG] Successfully updated to version 2.1.133
+2026-05-08T06:57:25.478Z [DEBUG] Zip extraction completed: 358 files, 3764KB uncompressed
+2026-05-08T06:57:25.994Z [DEBUG] Plugin autoupdate: checking installed plugins
+2026-05-08T06:57:26.949Z [DEBUG] Stream started - received first chunk
+2026-05-08T06:57:27.387Z [DEBUG] [useDeferredValue] Messages deferred by 1 (4→5)
+2026-05-08T06:57:27.398Z [DEBUG] [useDeferredValue] Messages deferred by 1 (4→5)
+2026-05-08T06:57:31.975Z [WARN] [3P telemetry] Event dropped (no event logger initialized): tool_decision
+2026-05-08T06:57:31.981Z [DEBUG] autocompact: tokens=180 threshold=167000 effectiveWindow=180000
+2026-05-08T06:57:31.982Z [DEBUG] Tool search disabled for model 'claude-haiku-4-5-20251001': model does not support tool_reference blocks. This feature is only available on Claude Sonnet 4+, Opus 4+, and newer models.
+2026-05-08T06:57:31.983Z [DEBUG] attribution header x-anthropic-billing-header: cc_version=2.1.101.995; cc_entrypoint=cli; cch=00000;
+2026-05-08T06:57:31.984Z [DEBUG] [API:request] Creating client, ANTHROPIC_CUSTOM_HEADERS present: false, has Authorization header: false
+2026-05-08T06:57:31.984Z [DEBUG] [API:auth] OAuth token check starting
+2026-05-08T06:57:31.985Z [DEBUG] [API:auth] OAuth token check complete
+2026-05-08T06:57:31.986Z [DEBUG] [API REQUEST] /v1/messages x-client-request-id=63605969-bd02-4505-81ea-ddc70e09850b source=agent:builtin:Explore
+2026-05-08T06:57:31.987Z [DEBUG] [useDeferredValue] Messages deferred by 1 (5→6)
+2026-05-08T06:57:31.990Z [DEBUG] High write ratio: blit=0, write=1136 (100.0% writes), screen=23x120
+2026-05-08T06:57:32.007Z [DEBUG] [useDeferredValue] Messages deferred by 1 (6→7)
+2026-05-08T06:57:32.016Z [DEBUG] [useDeferredValue] Messages deferred by 1 (6→7)
+2026-05-08T06:57:32.742Z [DEBUG] Stream started - received first chunk
+2026-05-08T06:57:33.293Z [DEBUG] Creating shell snapshot for bash (C:\Program Files\Git\bin\bash.exe)
+2026-05-08T06:57:33.293Z [DEBUG] Looking for shell config file: C:\Users\nitye\.bashrc
+2026-05-08T06:57:33.294Z [DEBUG] Shell config file not found: C:\Users\nitye\.bashrc, creating snapshot with Claude Code defaults only
+2026-05-08T06:57:33.294Z [DEBUG] Snapshots directory: C:\Users\nitye\.claude\shell-snapshots
+2026-05-08T06:57:33.295Z [DEBUG] [useDeferredValue] Messages deferred by 1 (7→8)
+2026-05-08T06:57:33.970Z [DEBUG] Creating snapshot at: C:\Users\nitye\.claude\shell-snapshots\snapshot-bash-1778223453294-pjf692.sh
+2026-05-08T06:57:33.971Z [DEBUG] Execution timeout: 10000ms
+2026-05-08T06:57:34.406Z [DEBUG] Shell snapshot created successfully (1585 bytes)
+2026-05-08T06:57:34.407Z [DEBUG] Session environment not yet supported on Windows
+2026-05-08T06:57:34.408Z [DEBUG] Spawning shell without login (-l flag skipped)
+2026-05-08T06:57:34.647Z [DEBUG] Sending 10 skills via attachment (initial, 10 total sent)
+2026-05-08T06:57:34.648Z [DEBUG] autocompact: tokens=18710 threshold=167000 effectiveWindow=180000
+2026-05-08T06:57:34.648Z [DEBUG] Tool search disabled for model 'claude-haiku-4-5-20251001': model does not support tool_reference blocks. This feature is only available on Claude Sonnet 4+, Opus 4+, and newer models.
+2026-05-08T06:57:34.649Z [DEBUG] attribution header x-anthropic-billing-header: cc_version=2.1.101.995; cc_entrypoint=cli; cch=00000;
+2026-05-08T06:57:34.649Z [DEBUG] [API:request] Creating client, ANTHROPIC_CUSTOM_HEADERS present: false, has Authorization header: false
+2026-05-08T06:57:34.650Z [DEBUG] [API:auth] OAuth token check starting
+2026-05-08T06:57:34.650Z [DEBUG] [API:auth] OAuth token check complete
+2026-05-08T06:57:34.651Z [DEBUG] [API REQUEST] /v1/messages x-client-request-id=20421256-9c13-4c77-a07e-c2b33a829556 source=agent:builtin:Explore
+2026-05-08T06:57:34.652Z [DEBUG] [useDeferredValue] Messages deferred by 1 (8→9)
+2026-05-08T06:57:35.682Z [DEBUG] Stream started - received first chunk
+2026-05-08T06:57:36.034Z [DEBUG] [useDeferredValue] Messages deferred by 1 (9→10)
+2026-05-08T06:57:36.036Z [DEBUG] Session environment not yet supported on Windows
+2026-05-08T06:57:36.041Z [DEBUG] Spawning shell without login (-l flag skipped)
+2026-05-08T06:57:36.157Z [DEBUG] autocompact: tokens=19939 threshold=167000 effectiveWindow=180000
+2026-05-08T06:57:36.158Z [DEBUG] Tool search disabled for model 'claude-haiku-4-5-20251001': model does not support tool_reference blocks. This feature is only available on Claude Sonnet 4+, Opus 4+, and newer models.
+2026-05-08T06:57:36.158Z [DEBUG] attribution header x-anthropic-billing-header: cc_version=2.1.101.995; cc_entrypoint=cli; cch=00000;
+2026-05-08T06:57:36.159Z [DEBUG] [API:request] Creating client, ANTHROPIC_CUSTOM_HEADERS present: false, has Authorization header: false
+2026-05-08T06:57:36.159Z [DEBUG] [API:auth] OAuth token check starting
+2026-05-08T06:57:36.159Z [DEBUG] [API:auth] OAuth token check complete
+2026-05-08T06:57:36.160Z [DEBUG] [API REQUEST] /v1/messages x-client-request-id=282e8021-ced4-437f-8c68-5f9915fcfd35 source=agent:builtin:Explore
+2026-05-08T06:57:36.161Z [DEBUG] [useDeferredValue] Messages deferred by 1 (10→11)
+2026-05-08T06:57:37.141Z [DEBUG] Stream started - received first chunk
+2026-05-08T06:57:37.159Z [DEBUG] [useDeferredValue] Messages deferred by 1 (11→12)
+2026-05-08T06:57:37.161Z [DEBUG] Session environment not yet supported on Windows
+2026-05-08T06:57:37.162Z [DEBUG] Spawning shell without login (-l flag skipped)
+2026-05-08T06:57:37.259Z [DEBUG] autocompact: tokens=20278 threshold=167000 effectiveWindow=180000
+2026-05-08T06:57:37.259Z [DEBUG] Tool search disabled for model 'claude-haiku-4-5-20251001': model does not support tool_reference blocks. This feature is only available on Claude Sonnet 4+, Opus 4+, and newer models.
+2026-05-08T06:57:37.260Z [DEBUG] attribution header x-anthropic-billing-header: cc_version=2.1.101.995; cc_entrypoint=cli; cch=00000;
+2026-05-08T06:57:37.260Z [DEBUG] [API:request] Creating client, ANTHROPIC_CUSTOM_HEADERS present: false, has Authorization header: false
+2026-05-08T06:57:37.260Z [DEBUG] [API:auth] OAuth token check starting
+2026-05-08T06:57:37.261Z [DEBUG] [API:auth] OAuth token check complete
+2026-05-08T06:57:37.262Z [DEBUG] [API REQUEST] /v1/messages x-client-request-id=7eff2d6c-b79f-43cd-ae92-4d109311a532 source=agent:builtin:Explore
+2026-05-08T06:57:37.263Z [DEBUG] [useDeferredValue] Messages deferred by 1 (12→13)
+2026-05-08T06:57:38.150Z [DEBUG] Stream started - received first chunk
+2026-05-08T06:57:38.206Z [DEBUG] Session environment not yet supported on Windows
+2026-05-08T06:57:38.207Z [DEBUG] Spawning shell without login (-l flag skipped)
+2026-05-08T06:57:38.207Z [DEBUG] [useDeferredValue] Messages deferred by 1 (13→14)
+2026-05-08T06:57:41.214Z [DEBUG] [useDeferredValue] Messages deferred by 1 (14→15)
+2026-05-08T06:58:00.541Z [DEBUG] autocompact: tokens=21529 threshold=167000 effectiveWindow=180000
+2026-05-08T06:58:00.543Z [DEBUG] Tool search disabled for model 'claude-haiku-4-5-20251001': model does not support tool_reference blocks. This feature is only available on Claude Sonnet 4+, Opus 4+, and newer models.
+2026-05-08T06:58:00.545Z [DEBUG] attribution header x-anthropic-billing-header: cc_version=2.1.101.995; cc_entrypoint=cli; cch=00000;
+2026-05-08T06:58:00.547Z [DEBUG] [API:request] Creating client, ANTHROPIC_CUSTOM_HEADERS present: false, has Authorization header: false
+2026-05-08T06:58:00.547Z [DEBUG] [API:auth] OAuth token check starting
+2026-05-08T06:58:00.548Z [DEBUG] [API:auth] OAuth token check complete
+2026-05-08T06:58:00.552Z [DEBUG] [API REQUEST] /v1/messages x-client-request-id=848681ca-567d-463b-b22b-9dfe0e672131 source=agent:builtin:Explore
+2026-05-08T06:58:00.554Z [DEBUG] [useDeferredValue] Messages deferred by 1 (15→16)
+2026-05-08T06:58:01.538Z [DEBUG] Stream started - received first chunk
+2026-05-08T06:58:02.248Z [DEBUG] [useDeferredValue] Messages deferred by 1 (16→17)
+2026-05-08T06:58:02.252Z [DEBUG] Session environment not yet supported on Windows
+2026-05-08T06:58:02.257Z [DEBUG] Spawning shell without login (-l flag skipped)
+2026-05-08T06:58:03.963Z [DEBUG] autocompact: tokens=22995 threshold=167000 effectiveWindow=180000
+2026-05-08T06:58:03.965Z [DEBUG] Tool search disabled for model 'claude-haiku-4-5-20251001': model does not support tool_reference blocks. This feature is only available on Claude Sonnet 4+, Opus 4+, and newer models.
+2026-05-08T06:58:03.966Z [DEBUG] attribution header x-anthropic-billing-header: cc_version=2.1.101.995; cc_entrypoint=cli; cch=00000;
+2026-05-08T06:58:03.968Z [DEBUG] [API:request] Creating client, ANTHROPIC_CUSTOM_HEADERS present: false, has Authorization header: false
+2026-05-08T06:58:03.968Z [DEBUG] [API:auth] OAuth token check starting
+2026-05-08T06:58:03.969Z [DEBUG] [API:auth] OAuth token check complete
+2026-05-08T06:58:03.972Z [DEBUG] [API REQUEST] /v1/messages x-client-request-id=64f52244-34ba-451c-9cb4-33b4146b1be3 source=agent:builtin:Explore
+2026-05-08T06:58:03.974Z [DEBUG] [useDeferredValue] Messages deferred by 1 (17→18)
+2026-05-08T06:58:05.604Z [DEBUG] Stream started - received first chunk
+2026-05-08T06:58:05.677Z [DEBUG] [useDeferredValue] Messages deferred by 1 (18→19)
+2026-05-08T06:58:05.682Z [DEBUG] Session environment not yet supported on Windows
+2026-05-08T06:58:05.686Z [DEBUG] Spawning shell without login (-l flag skipped)
+2026-05-08T06:58:05.824Z [DEBUG] autocompact: tokens=23368 threshold=167000 effectiveWindow=180000
+2026-05-08T06:58:05.825Z [DEBUG] Tool search disabled for model 'claude-haiku-4-5-20251001': model does not support tool_reference blocks. This feature is only available on Claude Sonnet 4+, Opus 4+, and newer models.
+2026-05-08T06:58:05.825Z [DEBUG] attribution header x-anthropic-billing-header: cc_version=2.1.101.995; cc_entrypoint=cli; cch=00000;
+2026-05-08T06:58:05.826Z [DEBUG] [API:request] Creating client, ANTHROPIC_CUSTOM_HEADERS present: false, has Authorization header: false
+2026-05-08T06:58:05.826Z [DEBUG] [API:auth] OAuth token check starting
+2026-05-08T06:58:05.827Z [DEBUG] [API:auth] OAuth token check complete
+2026-05-08T06:58:05.828Z [DEBUG] [API REQUEST] /v1/messages x-client-request-id=69767381-8a4e-4eb4-af79-e78666faabb0 source=agent:builtin:Explore
+2026-05-08T06:58:05.828Z [DEBUG] [useDeferredValue] Messages deferred by 1 (19→20)
+2026-05-08T06:58:06.871Z [DEBUG] Stream started - received first chunk
+2026-05-08T06:58:06.912Z [DEBUG] Session environment not yet supported on Windows
+2026-05-08T06:58:06.913Z [DEBUG] [useDeferredValue] Messages deferred by 1 (20→21)
+2026-05-08T06:58:06.916Z [DEBUG] Spawning shell without login (-l flag skipped)
+2026-05-08T06:58:07.111Z [DEBUG] autocompact: tokens=23676 threshold=167000 effectiveWindow=180000
+2026-05-08T06:58:07.112Z [DEBUG] Tool search disabled for model 'claude-haiku-4-5-20251001': model does not support tool_reference blocks. This feature is only available on Claude Sonnet 4+, Opus 4+, and newer models.
+2026-05-08T06:58:07.113Z [DEBUG] attribution header x-anthropic-billing-header: cc_version=2.1.101.995; cc_entrypoint=cli; cch=00000;
+2026-05-08T06:58:07.113Z [DEBUG] [API:request] Creating client, ANTHROPIC_CUSTOM_HEADERS present: false, has Authorization header: false
+2026-05-08T06:58:07.113Z [DEBUG] [API:auth] OAuth token check starting
+2026-05-08T06:58:07.114Z [DEBUG] [API:auth] OAuth token check complete
+2026-05-08T06:58:07.115Z [DEBUG] [API REQUEST] /v1/messages x-client-request-id=b5344a13-b036-4a27-b732-23ef05a007b4 source=agent:builtin:Explore
+2026-05-08T06:58:07.115Z [DEBUG] [useDeferredValue] Messages deferred by 1 (21→22)
+2026-05-08T06:58:08.306Z [DEBUG] Stream started - received first chunk
+2026-05-08T06:58:09.333Z [DEBUG] [useDeferredValue] Messages deferred by 1 (22→23)
+2026-05-08T06:58:09.338Z [DEBUG] Session environment not yet supported on Windows
+2026-05-08T06:58:09.340Z [DEBUG] Spawning shell without login (-l flag skipped)
+2026-05-08T06:58:09.769Z [DEBUG] autocompact: tokens=24210 threshold=167000 effectiveWindow=180000
+2026-05-08T06:58:09.769Z [DEBUG] Tool search disabled for model 'claude-haiku-4-5-20251001': model does not support tool_reference blocks. This feature is only available on Claude Sonnet 4+, Opus 4+, and newer models.
+2026-05-08T06:58:09.770Z [DEBUG] attribution header x-anthropic-billing-header: cc_version=2.1.101.995; cc_entrypoint=cli; cch=00000;
+2026-05-08T06:58:09.771Z [DEBUG] [API:request] Creating client, ANTHROPIC_CUSTOM_HEADERS present: false, has Authorization header: false
+2026-05-08T06:58:09.771Z [DEBUG] [API:auth] OAuth token check starting
+2026-05-08T06:58:09.771Z [DEBUG] [API:auth] OAuth token check complete
+2026-05-08T06:58:09.773Z [DEBUG] [API REQUEST] /v1/messages x-client-request-id=4cbcda35-ac58-4c9c-a819-36c11fee8a4f source=agent:builtin:Explore
+2026-05-08T06:58:09.774Z [DEBUG] [useDeferredValue] Messages deferred by 1 (23→24)
+2026-05-08T06:58:11.096Z [DEBUG] Stream started - received first chunk
+2026-05-08T06:58:11.329Z [DEBUG] [useDeferredValue] Messages deferred by 1 (24→25)
+2026-05-08T06:58:11.333Z [DEBUG] Session environment not yet supported on Windows
+2026-05-08T06:58:11.334Z [DEBUG] Spawning shell without login (-l flag skipped)
+2026-05-08T06:58:11.523Z [DEBUG] autocompact: tokens=24571 threshold=167000 effectiveWindow=180000
+2026-05-08T06:58:11.524Z [DEBUG] Tool search disabled for model 'claude-haiku-4-5-20251001': model does not support tool_reference blocks. This feature is only available on Claude Sonnet 4+, Opus 4+, and newer models.
+2026-05-08T06:58:11.525Z [DEBUG] attribution header x-anthropic-billing-header: cc_version=2.1.101.995; cc_entrypoint=cli; cch=00000;
+2026-05-08T06:58:11.526Z [DEBUG] [API:request] Creating client, ANTHROPIC_CUSTOM_HEADERS present: false, has Authorization header: false
+2026-05-08T06:58:11.526Z [DEBUG] [API:auth] OAuth token check starting
+2026-05-08T06:58:11.527Z [DEBUG] [useDeferredValue] Messages deferred by 1 (25→26)
+2026-05-08T06:58:11.530Z [DEBUG] [API:auth] OAuth token check complete
+2026-05-08T06:58:11.531Z [DEBUG] [API REQUEST] /v1/messages x-client-request-id=ee43c4e8-0634-43b6-9251-a773944e783e source=agent:builtin:Explore
+2026-05-08T06:58:12.993Z [DEBUG] Stream started - received first chunk
+2026-05-08T06:58:13.373Z [DEBUG] [useDeferredValue] Messages deferred by 1 (26→27)
+2026-05-08T06:58:13.375Z [DEBUG] Session environment not yet supported on Windows
+2026-05-08T06:58:13.380Z [DEBUG] Spawning shell without login (-l flag skipped)
+2026-05-08T06:58:13.597Z [DEBUG] autocompact: tokens=25306 threshold=167000 effectiveWindow=180000
+2026-05-08T06:58:13.598Z [DEBUG] Tool search disabled for model 'claude-haiku-4-5-20251001': model does not support tool_reference blocks. This feature is only available on Claude Sonnet 4+, Opus 4+, and newer models.
+2026-05-08T06:58:13.598Z [DEBUG] attribution header x-anthropic-billing-header: cc_version=2.1.101.995; cc_entrypoint=cli; cch=00000;
+2026-05-08T06:58:13.599Z [DEBUG] [API:request] Creating client, ANTHROPIC_CUSTOM_HEADERS present: false, has Authorization header: false
+2026-05-08T06:58:13.599Z [DEBUG] [API:auth] OAuth token check starting
+2026-05-08T06:58:13.600Z [DEBUG] [API:auth] OAuth token check complete
+2026-05-08T06:58:13.602Z [DEBUG] [API REQUEST] /v1/messages x-client-request-id=101e5e6b-ca9e-496d-ba2b-98a2f558ff47 source=agent:builtin:Explore
+2026-05-08T06:58:13.605Z [DEBUG] [useDeferredValue] Messages deferred by 1 (27→28)
+2026-05-08T06:58:14.421Z [DEBUG] Stream started - received first chunk
+2026-05-08T06:58:15.111Z [DEBUG] [useDeferredValue] Messages deferred by 1 (28→29)
+2026-05-08T06:58:15.359Z [DEBUG] [useDeferredValue] Messages deferred by 1 (29→30)
+2026-05-08T06:58:15.381Z [DEBUG] [useDeferredValue] Messages deferred by 1 (30→31)
+2026-05-08T06:58:15.596Z [DEBUG] [useDeferredValue] Messages deferred by 1 (31→32)
+2026-05-08T06:58:15.613Z [DEBUG] [useDeferredValue] Messages deferred by 2 (31→33)
+2026-05-08T06:58:15.808Z [DEBUG] [useDeferredValue] Messages deferred by 1 (33→34)
+2026-05-08T06:58:15.819Z [DEBUG] [useDeferredValue] Messages deferred by 2 (33→35)
+2026-05-08T06:58:16.025Z [DEBUG] [useDeferredValue] Messages deferred by 2 (35→37)
+2026-05-08T06:58:16.152Z [DEBUG] [useDeferredValue] Messages deferred by 1 (37→38)
+2026-05-08T06:58:16.171Z [DEBUG] [useDeferredValue] Messages deferred by 1 (38→39)
+2026-05-08T06:58:16.199Z [DEBUG] [useDeferredValue] Messages deferred by 1 (39→40)
+2026-05-08T06:58:16.276Z [DEBUG] autocompact: tokens=29423 threshold=167000 effectiveWindow=180000
+2026-05-08T06:58:16.277Z [DEBUG] Tool search disabled for model 'claude-haiku-4-5-20251001': model does not support tool_reference blocks. This feature is only available on Claude Sonnet 4+, Opus 4+, and newer models.
+2026-05-08T06:58:16.279Z [DEBUG] attribution header x-anthropic-billing-header: cc_version=2.1.101.995; cc_entrypoint=cli; cch=00000;
+2026-05-08T06:58:16.280Z [DEBUG] [API:request] Creating client, ANTHROPIC_CUSTOM_HEADERS present: false, has Authorization header: false
+2026-05-08T06:58:16.281Z [DEBUG] [API:auth] OAuth token check starting
+2026-05-08T06:58:16.282Z [DEBUG] [API:auth] OAuth token check complete
+2026-05-08T06:58:16.285Z [DEBUG] [API REQUEST] /v1/messages x-client-request-id=f3df4612-53df-4d47-b6c2-8a4c88e3621c source=agent:builtin:Explore
+2026-05-08T06:58:17.039Z [DEBUG] Stream started - received first chunk
+2026-05-08T06:58:17.830Z [DEBUG] [useDeferredValue] Messages deferred by 1 (40→41)
+2026-05-08T06:58:17.835Z [DEBUG] Session environment not yet supported on Windows
+2026-05-08T06:58:17.845Z [DEBUG] Spawning shell without login (-l flag skipped)
+2026-05-08T06:58:18.049Z [DEBUG] autocompact: tokens=31230 threshold=167000 effectiveWindow=180000
+2026-05-08T06:58:18.050Z [DEBUG] Tool search disabled for model 'claude-haiku-4-5-20251001': model does not support tool_reference blocks. This feature is only available on Claude Sonnet 4+, Opus 4+, and newer models.
+2026-05-08T06:58:18.052Z [DEBUG] attribution header x-anthropic-billing-header: cc_version=2.1.101.995; cc_entrypoint=cli; cch=00000;
+2026-05-08T06:58:18.054Z [DEBUG] [API:request] Creating client, ANTHROPIC_CUSTOM_HEADERS present: false, has Authorization header: false
+2026-05-08T06:58:18.055Z [DEBUG] [API:auth] OAuth token check starting
+2026-05-08T06:58:18.056Z [DEBUG] [API:auth] OAuth token check complete
+2026-05-08T06:58:18.060Z [DEBUG] [API REQUEST] /v1/messages x-client-request-id=15e474a4-0289-47e6-ab5f-5ba2b46e7f75 source=agent:builtin:Explore
+2026-05-08T06:58:18.062Z [DEBUG] [useDeferredValue] Messages deferred by 1 (41→42)
+2026-05-08T06:58:19.717Z [DEBUG] Stream started - received first chunk
+2026-05-08T06:58:19.827Z [DEBUG] [useDeferredValue] Messages deferred by 1 (42→43)
+2026-05-08T06:58:19.878Z [DEBUG] Session environment not yet supported on Windows
+2026-05-08T06:58:19.886Z [DEBUG] Spawning shell without login (-l flag skipped)
+2026-05-08T06:58:20.228Z [DEBUG] autocompact: tokens=31881 threshold=167000 effectiveWindow=180000
+2026-05-08T06:58:20.230Z [DEBUG] Tool search disabled for model 'claude-haiku-4-5-20251001': model does not support tool_reference blocks. This feature is only available on Claude Sonnet 4+, Opus 4+, and newer models.
+2026-05-08T06:58:20.234Z [DEBUG] attribution header x-anthropic-billing-header: cc_version=2.1.101.995; cc_entrypoint=cli; cch=00000;
+2026-05-08T06:58:20.238Z [DEBUG] [API:request] Creating client, ANTHROPIC_CUSTOM_HEADERS present: false, has Authorization header: false
+2026-05-08T06:58:20.239Z [DEBUG] [API:auth] OAuth token check starting
+2026-05-08T06:58:20.241Z [DEBUG] [API:auth] OAuth token check complete
+2026-05-08T06:58:20.245Z [DEBUG] [API REQUEST] /v1/messages x-client-request-id=323d7966-c2eb-4154-b273-bf3a2df2cb47 source=agent:builtin:Explore
+2026-05-08T06:58:20.249Z [DEBUG] [useDeferredValue] Messages deferred by 1 (43→44)
+2026-05-08T06:58:21.239Z [DEBUG] Stream started - received first chunk
+2026-05-08T06:58:21.355Z [DEBUG] Session environment not yet supported on Windows
+2026-05-08T06:58:21.357Z [DEBUG] [useDeferredValue] Messages deferred by 1 (44→45)
+2026-05-08T06:58:21.363Z [DEBUG] Spawning shell without login (-l flag skipped)
+2026-05-08T06:58:21.595Z [DEBUG] autocompact: tokens=32360 threshold=167000 effectiveWindow=180000
+2026-05-08T06:58:21.596Z [DEBUG] Tool search disabled for model 'claude-haiku-4-5-20251001': model does not support tool_reference blocks. This feature is only available on Claude Sonnet 4+, Opus 4+, and newer models.
+2026-05-08T06:58:21.598Z [DEBUG] attribution header x-anthropic-billing-header: cc_version=2.1.101.995; cc_entrypoint=cli; cch=00000;
+2026-05-08T06:58:21.600Z [DEBUG] [API:request] Creating client, ANTHROPIC_CUSTOM_HEADERS present: false, has Authorization header: false
+2026-05-08T06:58:21.600Z [DEBUG] [API:auth] OAuth token check starting
+2026-05-08T06:58:21.601Z [DEBUG] [API:auth] OAuth token check complete
+2026-05-08T06:58:21.604Z [DEBUG] [API REQUEST] /v1/messages x-client-request-id=a22f1aa4-def0-4729-b0c3-67c055679b0a source=agent:builtin:Explore
+2026-05-08T06:58:21.606Z [DEBUG] [useDeferredValue] Messages deferred by 1 (45→46)
+2026-05-08T06:58:23.736Z [DEBUG] Stream started - received first chunk
+2026-05-08T06:58:24.579Z [DEBUG] [useDeferredValue] Messages deferred by 1 (46→47)
+2026-05-08T06:58:24.584Z [DEBUG] Session environment not yet supported on Windows
+2026-05-08T06:58:24.590Z [DEBUG] Spawning shell without login (-l flag skipped)
+2026-05-08T06:58:24.783Z [DEBUG] autocompact: tokens=32927 threshold=167000 effectiveWindow=180000
+2026-05-08T06:58:24.784Z [DEBUG] Tool search disabled for model 'claude-haiku-4-5-20251001': model does not support tool_reference blocks. This feature is only available on Claude Sonnet 4+, Opus 4+, and newer models.
+2026-05-08T06:58:24.786Z [DEBUG] attribution header x-anthropic-billing-header: cc_version=2.1.101.995; cc_entrypoint=cli; cch=00000;
+2026-05-08T06:58:24.787Z [DEBUG] [API:request] Creating client, ANTHROPIC_CUSTOM_HEADERS present: false, has Authorization header: false
+2026-05-08T06:58:24.788Z [DEBUG] [API:auth] OAuth token check starting
+2026-05-08T06:58:24.789Z [DEBUG] [API:auth] OAuth token check complete
+2026-05-08T06:58:24.792Z [DEBUG] [API REQUEST] /v1/messages x-client-request-id=d1848b9d-b1b0-4abb-8254-ee4e342039e4 source=agent:builtin:Explore
+2026-05-08T06:58:24.794Z [DEBUG] [useDeferredValue] Messages deferred by 1 (47→48)
+2026-05-08T06:58:26.668Z [DEBUG] Stream started - received first chunk
+2026-05-08T06:58:26.756Z [DEBUG] [useDeferredValue] Messages deferred by 1 (48→49)
+2026-05-08T06:58:26.763Z [DEBUG] Session environment not yet supported on Windows
+2026-05-08T06:58:26.769Z [DEBUG] Spawning shell without login (-l flag skipped)
+2026-05-08T06:58:26.882Z [DEBUG] autocompact: tokens=33576 threshold=167000 effectiveWindow=180000
+2026-05-08T06:58:26.883Z [DEBUG] Tool search disabled for model 'claude-haiku-4-5-20251001': model does not support tool_reference blocks. This feature is only available on Claude Sonnet 4+, Opus 4+, and newer models.
+2026-05-08T06:58:26.885Z [DEBUG] attribution header x-anthropic-billing-header: cc_version=2.1.101.995; cc_entrypoint=cli; cch=00000;
+2026-05-08T06:58:26.887Z [DEBUG] [API:request] Creating client, ANTHROPIC_CUSTOM_HEADERS present: false, has Authorization header: false
+2026-05-08T06:58:26.887Z [DEBUG] [API:auth] OAuth token check starting
+2026-05-08T06:58:26.888Z [DEBUG] [API:auth] OAuth token check complete
+2026-05-08T06:58:26.891Z [DEBUG] [API REQUEST] /v1/messages x-client-request-id=ccc3be7f-0e58-4efd-82ee-dff4b8f02ad1 source=agent:builtin:Explore
+2026-05-08T06:58:26.893Z [DEBUG] [useDeferredValue] Messages deferred by 1 (49→50)
+2026-05-08T06:58:28.100Z [DEBUG] Stream started - received first chunk
+2026-05-08T06:58:28.108Z [DEBUG] [useDeferredValue] Messages deferred by 1 (50→51)
+2026-05-08T06:58:28.216Z [DEBUG] [useDeferredValue] Messages deferred by 1 (51→52)
+2026-05-08T06:58:28.232Z [DEBUG] [useDeferredValue] Messages deferred by 1 (52→53)
+2026-05-08T06:58:28.260Z [DEBUG] [useDeferredValue] Messages deferred by 1 (53→54)
+2026-05-08T06:58:28.280Z [DEBUG] autocompact: tokens=35044 threshold=167000 effectiveWindow=180000
+2026-05-08T06:58:28.281Z [DEBUG] Tool search disabled for model 'claude-haiku-4-5-20251001': model does not support tool_reference blocks. This feature is only available on Claude Sonnet 4+, Opus 4+, and newer models.
+2026-05-08T06:58:28.283Z [DEBUG] attribution header x-anthropic-billing-header: cc_version=2.1.101.995; cc_entrypoint=cli; cch=00000;
+2026-05-08T06:58:28.285Z [DEBUG] [API:request] Creating client, ANTHROPIC_CUSTOM_HEADERS present: false, has Authorization header: false
+2026-05-08T06:58:28.285Z [DEBUG] [API:auth] OAuth token check starting
+2026-05-08T06:58:28.286Z [DEBUG] [API:auth] OAuth token check complete
+2026-05-08T06:58:28.289Z [DEBUG] [API REQUEST] /v1/messages x-client-request-id=538f852c-9ec2-4cd9-91a3-6dd3598ed309 source=agent:builtin:Explore
+2026-05-08T06:58:29.150Z [DEBUG] Stream started - received first chunk
+2026-05-08T06:58:31.261Z [DEBUG] executePermissionRequestHooks called for tool: Bash
+2026-05-08T06:58:31.264Z [DEBUG] [useDeferredValue] Messages deferred by 1 (54→55)
+2026-05-08T06:58:31.290Z [DEBUG] [useDeferredValue] Messages deferred by 1 (54→55)
+2026-05-08T06:58:31.296Z [DEBUG] High write ratio: blit=0, write=1483 (100.0% writes), screen=38x120
+2026-05-08T06:58:48.569Z [DEBUG] [FileIndex] getProjectFiles called, respectGitignore=true
+2026-05-08T06:58:48.570Z [DEBUG] [FileIndex] getFilesUsingGit called
+2026-05-08T06:58:48.570Z [DEBUG] [FileIndex] not a git repo, returning null
+2026-05-08T06:58:48.574Z [DEBUG] High write ratio: blit=0, write=1500 (100.0% writes), screen=33x120
+2026-05-08T06:58:48.580Z [DEBUG] [FileIndex] git ls-files returned null, falling back to ripgrep
+2026-05-08T06:58:49.205Z [DEBUG] AutoUpdaterWrapper: Installation type: native
+2026-05-08T06:58:49.208Z [DEBUG] Session environment not yet supported on Windows
+2026-05-08T06:58:49.218Z [DEBUG] Spawning shell without login (-l flag skipped)
+2026-05-08T06:58:49.323Z [DEBUG] Checking for native installer update to version 2.1.133
+2026-05-08T06:58:49.326Z [DEBUG] Version 2.1.133 already installed, updating symlink
+2026-05-08T06:58:49.328Z [DEBUG] Successfully updated to version 2.1.133
+2026-05-08T06:58:49.416Z [DEBUG] autocompact: tokens=35973 threshold=167000 effectiveWindow=180000
+2026-05-08T06:58:49.418Z [DEBUG] Tool search disabled for model 'claude-haiku-4-5-20251001': model does not support tool_reference blocks. This feature is only available on Claude Sonnet 4+, Opus 4+, and newer models.
+2026-05-08T06:58:49.421Z [DEBUG] attribution header x-anthropic-billing-header: cc_version=2.1.101.995; cc_entrypoint=cli; cch=00000;
+2026-05-08T06:58:49.423Z [DEBUG] [API:request] Creating client, ANTHROPIC_CUSTOM_HEADERS present: false, has Authorization header: false
+2026-05-08T06:58:49.423Z [DEBUG] [API:auth] OAuth token check starting
+2026-05-08T06:58:49.424Z [DEBUG] [API:auth] OAuth token check complete
+2026-05-08T06:58:49.427Z [DEBUG] [API REQUEST] /v1/messages x-client-request-id=3920e3a8-5c61-4c04-bac8-13cb447f763a source=agent:builtin:Explore
+2026-05-08T06:58:49.428Z [DEBUG] [useDeferredValue] Messages deferred by 1 (55→56)
+2026-05-08T06:58:50.476Z [DEBUG] Stream started - received first chunk
+2026-05-08T06:58:50.525Z [DEBUG] executePermissionRequestHooks called for tool: Bash
+2026-05-08T06:58:50.527Z [DEBUG] [useDeferredValue] Messages deferred by 1 (56→57)
+2026-05-08T06:58:50.539Z [DEBUG] [useDeferredValue] Messages deferred by 1 (56→57)
+2026-05-08T06:58:50.543Z [DEBUG] High write ratio: blit=0, write=1487 (100.0% writes), screen=38x120
+2026-05-08T06:58:50.783Z [DEBUG] rg error (signal=undefined, code=2, stderr: rg: .\Application Data: Access is denied. (os error 5)
+rg: .\Cookies: Access is denied. (os error 5)
+rg: .\Local Settings: Access is denied. (os error 5)
+rg: .\My Documents: Access is denied. (os error 5)
+rg: .\NetHood: Access is denied. (os error 5)
+rg: .\PrintHood: Access is denied. (os error 5)
+rg: .\Recent: Access is denied. (os error 5)
+rg: .\SendTo: Access is denied. (os error 5)
+rg: .\Start Menu: Access is denied. (os error 5)
+rg: .\Templates: Access is denied. (os error 5)
+rg: .\AppData\Local\Application Data: Access is denied. (os error 5)
+rg: .\AppData\Local\History: Access is denied. (os error 5)
+rg: .\AppData\Local\Temporary Internet Files: Access is denied. (os error 5)
+rg: .\AppData\Local\Microsoft\Windows\Temporary Internet Files: Access is denied. (os error 5)
+rg: .\AppData\Local\Microsoft\Windows\INetCache\Content.IE5: Access is denied. (os error 5)
+rg: .\AppData\Local\Microsoft\Windows\INetCache\Low\Content.IE5: Access is denied. (os error 5)
+rg: .\Documents\My Music: Access is denied. (os error 5)
+rg: .\Documents\My Pictures: The system cannot find the file specified. (os error 2)
+rg: .\Documents\My Videos: Access is denied. (os error 5)
+), 174577 results
+2026-05-08T06:59:08.092Z [DEBUG] [FileIndex] ripgrep: 174577 files in 19511ms
+2026-05-08T06:59:08.647Z [DEBUG] [FileIndex] cache refresh completed in 20078ms
+2026-05-08T06:59:24.289Z [DEBUG] [FileIndex] getProjectFiles called, respectGitignore=true
+2026-05-08T06:59:24.289Z [DEBUG] [FileIndex] getFilesUsingGit called
+2026-05-08T06:59:24.289Z [DEBUG] [FileIndex] not a git repo, returning null
+2026-05-08T06:59:24.293Z [DEBUG] High write ratio: blit=0, write=1547 (100.0% writes), screen=34x120
+2026-05-08T06:59:24.295Z [DEBUG] [FileIndex] git ls-files returned null, falling back to ripgrep
+2026-05-08T06:59:24.298Z [DEBUG] AutoUpdaterWrapper: Installation type: native
+2026-05-08T06:59:24.299Z [DEBUG] Session environment not yet supported on Windows
+2026-05-08T06:59:24.301Z [DEBUG] Spawning shell without login (-l flag skipped)
+2026-05-08T06:59:24.410Z [DEBUG] Checking for native installer update to version 2.1.133
+2026-05-08T06:59:24.413Z [DEBUG] Version 2.1.133 already installed, updating symlink
+2026-05-08T06:59:24.415Z [DEBUG] Successfully updated to version 2.1.133
+2026-05-08T06:59:24.500Z [DEBUG] autocompact: tokens=36415 threshold=167000 effectiveWindow=180000
+2026-05-08T06:59:24.502Z [DEBUG] Tool search disabled for model 'claude-haiku-4-5-20251001': model does not support tool_reference blocks. This feature is only available on Claude Sonnet 4+, Opus 4+, and newer models.
+2026-05-08T06:59:24.504Z [DEBUG] attribution header x-anthropic-billing-header: cc_version=2.1.101.995; cc_entrypoint=cli; cch=00000;
+2026-05-08T06:59:24.506Z [DEBUG] [API:request] Creating client, ANTHROPIC_CUSTOM_HEADERS present: false, has Authorization header: false
+2026-05-08T06:59:24.506Z [DEBUG] [API:auth] OAuth token check starting
+2026-05-08T06:59:24.507Z [DEBUG] [API:auth] OAuth token check complete
+2026-05-08T06:59:24.511Z [DEBUG] [API REQUEST] /v1/messages x-client-request-id=4dbe2dcf-609b-43e9-a0aa-8792ee6a8163 source=agent:builtin:Explore
+2026-05-08T06:59:24.512Z [DEBUG] [useDeferredValue] Messages deferred by 1 (57→58)
+2026-05-08T06:59:25.406Z [DEBUG] Stream started - received first chunk
+2026-05-08T06:59:25.924Z [DEBUG] rg error (signal=undefined, code=2, stderr: rg: .\Application Data: Access is denied. (os error 5)
+rg: .\Cookies: Access is denied. (os error 5)
+rg: .\AppData\Local\Application Data: Access is denied. (os error 5)
+rg: .\AppData\Local\History: Access is denied. (os error 5)
+rg: .\Local Settings: Access is denied. (os error 5)
+rg: .\AppData\Local\Temporary Internet Files: Access is denied. (os error 5)
+rg: .\My Documents: Access is denied. (os error 5)
+rg: .\NetHood: Access is denied. (os error 5)
+rg: .\PrintHood: Access is denied. (os error 5)
+rg: .\Recent: Access is denied. (os error 5)
+rg: .\SendTo: Access is denied. (os error 5)
+rg: .\Start Menu: Access is denied. (os error 5)
+rg: .\Templates: Access is denied. (os error 5)
+rg: .\Documents\My Music: Access is denied. (os error 5)
+rg: .\Documents\My Pictures: The system cannot find the file specified. (os error 2)
+rg: .\Documents\My Videos: Access is denied. (os error 5)
+rg: .\AppData\Local\Microsoft\Windows\Temporary Internet Files: Access is denied. (os error 5)
+rg: .\AppData\Local\Microsoft\Windows\INetCache\Content.IE5: Access is denied. (os error 5)
+rg: .\AppData\Local\Microsoft\Windows\INetCache\Low\Content.IE5: Access is denied. (os error 5)
+), 174945 results
+2026-05-08T06:59:37.699Z [DEBUG] [FileIndex] ripgrep: 174945 files in 13404ms
+2026-05-08T06:59:37.845Z [DEBUG] [useDeferredValue] Messages deferred by 1 (58→59)
+2026-05-08T06:59:37.884Z [DEBUG] [useDeferredValue] Messages deferred by 1 (58→59)
+2026-05-08T06:59:38.344Z [DEBUG] [FileIndex] cache refresh completed in 14056ms
+2026-05-08T06:59:45.806Z [DEBUG] autocompact: tokens=37757 threshold=167000 effectiveWindow=180000
+2026-05-08T06:59:45.807Z [DEBUG] Tool search disabled for model 'claude-haiku-4-5-20251001': model does not support tool_reference blocks. This feature is only available on Claude Sonnet 4+, Opus 4+, and newer models.
+2026-05-08T06:59:45.808Z [DEBUG] attribution header x-anthropic-billing-header: cc_version=2.1.101.995; cc_entrypoint=cli; cch=00000;
+2026-05-08T06:59:45.809Z [DEBUG] [API:request] Creating client, ANTHROPIC_CUSTOM_HEADERS present: false, has Authorization header: false
+2026-05-08T06:59:45.809Z [DEBUG] [API:auth] OAuth token check starting
+2026-05-08T06:59:45.809Z [DEBUG] [API:auth] OAuth token check complete
+2026-05-08T06:59:45.811Z [DEBUG] [API REQUEST] /v1/messages x-client-request-id=6d0be62d-5016-46bb-a657-712ce663d77f source=agent:builtin:Explore
+2026-05-08T06:59:45.812Z [DEBUG] [useDeferredValue] Messages deferred by 1 (59→60)
+2026-05-08T06:59:46.635Z [DEBUG] Stream started - received first chunk
+2026-05-08T06:59:47.777Z [DEBUG] [useDeferredValue] Messages deferred by 1 (60→61)
+2026-05-08T06:59:47.781Z [DEBUG] Session environment not yet supported on Windows
+2026-05-08T06:59:47.782Z [DEBUG] Spawning shell without login (-l flag skipped)
+2026-05-08T06:59:47.956Z [DEBUG] autocompact: tokens=38458 threshold=167000 effectiveWindow=180000
+2026-05-08T06:59:47.956Z [DEBUG] Tool search disabled for model 'claude-haiku-4-5-20251001': model does not support tool_reference blocks. This feature is only available on Claude Sonnet 4+, Opus 4+, and newer models.
+2026-05-08T06:59:47.957Z [DEBUG] attribution header x-anthropic-billing-header: cc_version=2.1.101.995; cc_entrypoint=cli; cch=00000;
+2026-05-08T06:59:47.958Z [DEBUG] [API:request] Creating client, ANTHROPIC_CUSTOM_HEADERS present: false, has Authorization header: false
+2026-05-08T06:59:47.958Z [DEBUG] [API:auth] OAuth token check starting
+2026-05-08T06:59:47.958Z [DEBUG] [API:auth] OAuth token check complete
+2026-05-08T06:59:47.959Z [DEBUG] [API REQUEST] /v1/messages x-client-request-id=b8f3d6e0-d6cc-4b1f-abed-2c134c53d1a0 source=agent:builtin:Explore
+2026-05-08T06:59:47.960Z [DEBUG] [useDeferredValue] Messages deferred by 1 (61→62)
+2026-05-08T06:59:48.995Z [DEBUG] Stream started - received first chunk
+2026-05-08T06:59:49.233Z [DEBUG] [useDeferredValue] Messages deferred by 1 (62→63)
+2026-05-08T06:59:49.240Z [DEBUG] Session environment not yet supported on Windows
+2026-05-08T06:59:49.242Z [DEBUG] Spawning shell without login (-l flag skipped)
+2026-05-08T06:59:49.418Z [DEBUG] autocompact: tokens=38623 threshold=167000 effectiveWindow=180000
+2026-05-08T06:59:49.419Z [DEBUG] Tool search disabled for model 'claude-haiku-4-5-20251001': model does not support tool_reference blocks. This feature is only available on Claude Sonnet 4+, Opus 4+, and newer models.
+2026-05-08T06:59:49.420Z [DEBUG] attribution header x-anthropic-billing-header: cc_version=2.1.101.995; cc_entrypoint=cli; cch=00000;
+2026-05-08T06:59:49.421Z [DEBUG] [API:request] Creating client, ANTHROPIC_CUSTOM_HEADERS present: false, has Authorization header: false
+2026-05-08T06:59:49.421Z [DEBUG] [API:auth] OAuth token check starting
+2026-05-08T06:59:49.421Z [DEBUG] [API:auth] OAuth token check complete
+2026-05-08T06:59:49.423Z [DEBUG] [API REQUEST] /v1/messages x-client-request-id=c8288f2b-9fc1-45a1-967a-e51926a3c863 source=agent:builtin:Explore
+2026-05-08T06:59:49.423Z [DEBUG] [useDeferredValue] Messages deferred by 1 (63→64)
+2026-05-08T06:59:50.421Z [DEBUG] Stream started - received first chunk
+2026-05-08T06:59:50.651Z [DEBUG] [useDeferredValue] Messages deferred by 1 (64→65)
+2026-05-08T06:59:50.655Z [DEBUG] Session environment not yet supported on Windows
+2026-05-08T06:59:50.660Z [DEBUG] Spawning shell without login (-l flag skipped)
+2026-05-08T06:59:50.748Z [DEBUG] autocompact: tokens=38886 threshold=167000 effectiveWindow=180000
+2026-05-08T06:59:50.748Z [DEBUG] Tool search disabled for model 'claude-haiku-4-5-20251001': model does not support tool_reference blocks. This feature is only available on Claude Sonnet 4+, Opus 4+, and newer models.
+2026-05-08T06:59:50.749Z [DEBUG] attribution header x-anthropic-billing-header: cc_version=2.1.101.995; cc_entrypoint=cli; cch=00000;
+2026-05-08T06:59:50.750Z [DEBUG] [API:request] Creating client, ANTHROPIC_CUSTOM_HEADERS present: false, has Authorization header: false
+2026-05-08T06:59:50.750Z [DEBUG] [API:auth] OAuth token check starting
+2026-05-08T06:59:50.750Z [DEBUG] [API:auth] OAuth token check complete
+2026-05-08T06:59:50.751Z [DEBUG] [API REQUEST] /v1/messages x-client-request-id=42795e35-9aa3-4283-8fd4-b2cfb8aa6ef0 source=agent:builtin:Explore
+2026-05-08T06:59:50.752Z [DEBUG] [useDeferredValue] Messages deferred by 1 (65→66)
+2026-05-08T06:59:51.853Z [DEBUG] Stream started - received first chunk
+2026-05-08T06:59:51.875Z [DEBUG] [useDeferredValue] Messages deferred by 1 (66→67)
+2026-05-08T06:59:51.883Z [DEBUG] Session environment not yet supported on Windows
+2026-05-08T06:59:51.887Z [DEBUG] Spawning shell without login (-l flag skipped)
+2026-05-08T06:59:52.020Z [DEBUG] autocompact: tokens=39015 threshold=167000 effectiveWindow=180000
+2026-05-08T06:59:52.021Z [DEBUG] Tool search disabled for model 'claude-haiku-4-5-20251001': model does not support tool_reference blocks. This feature is only available on Claude Sonnet 4+, Opus 4+, and newer models.
+2026-05-08T06:59:52.022Z [DEBUG] attribution header x-anthropic-billing-header: cc_version=2.1.101.995; cc_entrypoint=cli; cch=00000;
+2026-05-08T06:59:52.022Z [DEBUG] [API:request] Creating client, ANTHROPIC_CUSTOM_HEADERS present: false, has Authorization header: false
+2026-05-08T06:59:52.023Z [DEBUG] [API:auth] OAuth token check starting
+2026-05-08T06:59:52.023Z [DEBUG] [useDeferredValue] Messages deferred by 1 (67→68)
+2026-05-08T06:59:52.027Z [DEBUG] [API:auth] OAuth token check complete
+2026-05-08T06:59:52.028Z [DEBUG] [API REQUEST] /v1/messages x-client-request-id=60c6b3c5-dee0-4da4-a034-8fc21bb6f789 source=agent:builtin:Explore
+2026-05-08T06:59:53.114Z [DEBUG] Stream started - received first chunk
+2026-05-08T06:59:53.846Z [DEBUG] [useDeferredValue] Messages deferred by 1 (68→69)
+2026-05-08T06:59:53.848Z [DEBUG] Session environment not yet supported on Windows
+2026-05-08T06:59:53.852Z [DEBUG] Spawning shell without login (-l flag skipped)
+2026-05-08T06:59:53.957Z [DEBUG] Bash tool error (112ms): Shell command failed
+2026-05-08T06:59:53.959Z [DEBUG] autocompact: tokens=39193 threshold=167000 effectiveWindow=180000
+2026-05-08T06:59:53.960Z [DEBUG] Tool search disabled for model 'claude-haiku-4-5-20251001': model does not support tool_reference blocks. This feature is only available on Claude Sonnet 4+, Opus 4+, and newer models.
+2026-05-08T06:59:53.960Z [DEBUG] attribution header x-anthropic-billing-header: cc_version=2.1.101.995; cc_entrypoint=cli; cch=00000;
+2026-05-08T06:59:53.961Z [DEBUG] [API:request] Creating client, ANTHROPIC_CUSTOM_HEADERS present: false, has Authorization header: false
+2026-05-08T06:59:53.961Z [DEBUG] [API:auth] OAuth token check starting
+2026-05-08T06:59:53.962Z [DEBUG] [API:auth] OAuth token check complete
+2026-05-08T06:59:53.963Z [DEBUG] [API REQUEST] /v1/messages x-client-request-id=59ff6457-bf42-469e-b287-2661771f47a8 source=agent:builtin:Explore
+2026-05-08T06:59:53.964Z [DEBUG] [useDeferredValue] Messages deferred by 1 (69→70)
+2026-05-08T06:59:55.917Z [DEBUG] Stream started - received first chunk
+2026-05-08T06:59:56.303Z [DEBUG] [useDeferredValue] Messages deferred by 1 (70→71)
+2026-05-08T06:59:56.305Z [DEBUG] Session environment not yet supported on Windows
+2026-05-08T06:59:56.309Z [DEBUG] Spawning shell without login (-l flag skipped)
+2026-05-08T06:59:56.447Z [DEBUG] autocompact: tokens=39365 threshold=167000 effectiveWindow=180000
+2026-05-08T06:59:56.447Z [DEBUG] Tool search disabled for model 'claude-haiku-4-5-20251001': model does not support tool_reference blocks. This feature is only available on Claude Sonnet 4+, Opus 4+, and newer models.
+2026-05-08T06:59:56.448Z [DEBUG] attribution header x-anthropic-billing-header: cc_version=2.1.101.995; cc_entrypoint=cli; cch=00000;
+2026-05-08T06:59:56.448Z [DEBUG] [API:request] Creating client, ANTHROPIC_CUSTOM_HEADERS present: false, has Authorization header: false
+2026-05-08T06:59:56.449Z [DEBUG] [API:auth] OAuth token check starting
+2026-05-08T06:59:56.449Z [DEBUG] [API:auth] OAuth token check complete
+2026-05-08T06:59:56.451Z [DEBUG] [API REQUEST] /v1/messages x-client-request-id=4f741640-5d97-4b37-b466-553a6d2743da source=agent:builtin:Explore
+2026-05-08T06:59:56.451Z [DEBUG] [useDeferredValue] Messages deferred by 1 (71→72)
+2026-05-08T06:59:57.463Z [DEBUG] Stream started - received first chunk
+2026-05-08T06:59:57.932Z [DEBUG] [useDeferredValue] Messages deferred by 1 (72→73)
+2026-05-08T06:59:58.137Z [DEBUG] [useDeferredValue] Messages deferred by 2 (73→75)
+2026-05-08T06:59:58.153Z [DEBUG] [useDeferredValue] Messages deferred by 1 (75→76)
+2026-05-08T06:59:58.168Z [DEBUG] [useDeferredValue] Messages deferred by 2 (75→77)
+2026-05-08T06:59:58.194Z [DEBUG] [useDeferredValue] Messages deferred by 1 (77→78)
+2026-05-08T06:59:58.216Z [DEBUG] autocompact: tokens=40337 threshold=167000 effectiveWindow=180000
+2026-05-08T06:59:58.217Z [DEBUG] Tool search disabled for model 'claude-haiku-4-5-20251001': model does not support tool_reference blocks. This feature is only available on Claude Sonnet 4+, Opus 4+, and newer models.
+2026-05-08T06:59:58.219Z [DEBUG] attribution header x-anthropic-billing-header: cc_version=2.1.101.995; cc_entrypoint=cli; cch=00000;
+2026-05-08T06:59:58.220Z [DEBUG] [API:request] Creating client, ANTHROPIC_CUSTOM_HEADERS present: false, has Authorization header: false
+2026-05-08T06:59:58.221Z [DEBUG] [API:auth] OAuth token check starting
+2026-05-08T06:59:58.222Z [DEBUG] [API:auth] OAuth token check complete
+2026-05-08T06:59:58.225Z [DEBUG] [API REQUEST] /v1/messages x-client-request-id=e2301b47-b626-4c24-857f-ac5a36869319 source=agent:builtin:Explore
+2026-05-08T06:59:59.304Z [DEBUG] Stream started - received first chunk
+2026-05-08T07:00:00.044Z [DEBUG] executePermissionRequestHooks called for tool: Bash
+2026-05-08T07:00:00.046Z [DEBUG] [useDeferredValue] Messages deferred by 1 (78→79)
+2026-05-08T07:00:00.064Z [DEBUG] [useDeferredValue] Messages deferred by 1 (78→79)
+2026-05-08T07:00:00.068Z [DEBUG] High write ratio: blit=0, write=1501 (100.0% writes), screen=37x120
+2026-05-08T07:00:34.804Z [DEBUG] [FileIndex] getProjectFiles called, respectGitignore=true
+2026-05-08T07:00:34.805Z [DEBUG] [FileIndex] getFilesUsingGit called
+2026-05-08T07:00:34.805Z [DEBUG] [FileIndex] not a git repo, returning null
+2026-05-08T07:00:34.811Z [DEBUG] High write ratio: blit=0, write=1557 (100.0% writes), screen=34x120
+2026-05-08T07:00:34.833Z [DEBUG] [FileIndex] git ls-files returned null, falling back to ripgrep
+2026-05-08T07:00:34.838Z [DEBUG] AutoUpdaterWrapper: Installation type: native
+2026-05-08T07:00:34.838Z [DEBUG] Session environment not yet supported on Windows
+2026-05-08T07:00:34.841Z [DEBUG] Spawning shell without login (-l flag skipped)
+2026-05-08T07:00:34.948Z [DEBUG] Checking for native installer update to version 2.1.133
+2026-05-08T07:00:34.952Z [DEBUG] Version 2.1.133 already installed, updating symlink
+2026-05-08T07:00:34.953Z [DEBUG] Successfully updated to version 2.1.133
+2026-05-08T07:00:35.118Z [DEBUG] autocompact: tokens=41329 threshold=167000 effectiveWindow=180000
+2026-05-08T07:00:35.119Z [DEBUG] Tool search disabled for model 'claude-haiku-4-5-20251001': model does not support tool_reference blocks. This feature is only available on Claude Sonnet 4+, Opus 4+, and newer models.
+2026-05-08T07:00:35.123Z [DEBUG] attribution header x-anthropic-billing-header: cc_version=2.1.101.995; cc_entrypoint=cli; cch=00000;
+2026-05-08T07:00:35.124Z [DEBUG] [API:request] Creating client, ANTHROPIC_CUSTOM_HEADERS present: false, has Authorization header: false
+2026-05-08T07:00:35.125Z [DEBUG] [API:auth] OAuth token check starting
+2026-05-08T07:00:35.126Z [DEBUG] [API:auth] OAuth token check complete
+2026-05-08T07:00:35.129Z [DEBUG] [API REQUEST] /v1/messages x-client-request-id=d519947f-7879-4a36-aac8-0bcc9e93b4bd source=agent:builtin:Explore
+2026-05-08T07:00:35.130Z [DEBUG] [useDeferredValue] Messages deferred by 1 (79→80)
+2026-05-08T07:00:36.276Z [DEBUG] Stream started - received first chunk
+2026-05-08T07:00:36.428Z [DEBUG] rg error (signal=undefined, code=2, stderr: rg: .\Application Data: Access is denied. (os error 5)
+rg: .\Cookies: Access is denied. (os error 5)
+rg: .\Local Settings: Access is denied. (os error 5)
+rg: .\My Documents: Access is denied. (os error 5)
+rg: .\NetHood: Access is denied. (os error 5)
+rg: .\PrintHood: Access is denied. (os error 5)
+rg: .\Recent: Access is denied. (os error 5)
+rg: .\SendTo: Access is denied. (os error 5)
+rg: .\Start Menu: Access is denied. (os error 5)
+rg: .\Templates: Access is denied. (os error 5)
+rg: .\Documents\My Music: Access is denied. (os error 5)
+rg: .\Documents\My Pictures: The system cannot find the file specified. (os error 2)
+rg: .\Documents\My Videos: Access is denied. (os error 5)
+rg: .\AppData\Local\Application Data: Access is denied. (os error 5)
+rg: .\AppData\Local\History: Access is denied. (os error 5)
+rg: .\AppData\Local\Temporary Internet Files: Access is denied. (os error 5)
+rg: .\AppData\Local\Microsoft\Windows\Temporary Internet Files: Access is denied. (os error 5)
+rg: .\AppData\Local\Microsoft\Windows\INetCache\Content.IE5: Access is denied. (os error 5)
+rg: .\AppData\Local\Microsoft\Windows\INetCache\Low\Content.IE5: Access is denied. (os error 5)
+), 173406 results
+2026-05-08T07:00:41.379Z [DEBUG] [FileIndex] ripgrep: 173406 files in 6545ms
+2026-05-08T07:00:41.401Z [DEBUG] executePermissionRequestHooks called for tool: Bash
+2026-05-08T07:00:41.407Z [DEBUG] [useDeferredValue] Messages deferred by 1 (80→81)
+2026-05-08T07:00:41.414Z [DEBUG] [useDeferredValue] Messages deferred by 1 (80→81)
+2026-05-08T07:00:41.415Z [DEBUG] High write ratio: blit=0, write=1597 (100.0% writes), screen=39x120
+2026-05-08T07:00:41.595Z [DEBUG] [FileIndex] cache refresh completed in 6791ms
+2026-05-08T07:00:43.489Z [DEBUG] High write ratio: blit=0, write=1648 (100.0% writes), screen=36x120
+2026-05-08T07:00:43.491Z [DEBUG] AutoUpdaterWrapper: Installation type: native
+2026-05-08T07:00:43.491Z [DEBUG] Session environment not yet supported on Windows
+2026-05-08T07:00:43.493Z [DEBUG] Spawning shell without login (-l flag skipped)
+2026-05-08T07:00:43.666Z [DEBUG] autocompact: tokens=42137 threshold=167000 effectiveWindow=180000
+2026-05-08T07:00:43.666Z [DEBUG] Tool search disabled for model 'claude-haiku-4-5-20251001': model does not support tool_reference blocks. This feature is only available on Claude Sonnet 4+, Opus 4+, and newer models.
+2026-05-08T07:00:43.667Z [DEBUG] attribution header x-anthropic-billing-header: cc_version=2.1.101.995; cc_entrypoint=cli; cch=00000;
+2026-05-08T07:00:43.668Z [DEBUG] [API:request] Creating client, ANTHROPIC_CUSTOM_HEADERS present: false, has Authorization header: false
+2026-05-08T07:00:43.669Z [DEBUG] [API:auth] OAuth token check starting
+2026-05-08T07:00:43.669Z [DEBUG] [API:auth] OAuth token check complete
+2026-05-08T07:00:43.671Z [DEBUG] [API REQUEST] /v1/messages x-client-request-id=36015a23-54b6-4d90-a908-22df659df6b3 source=agent:builtin:Explore
+2026-05-08T07:00:43.671Z [DEBUG] [useDeferredValue] Messages deferred by 1 (81→82)
+2026-05-08T07:00:43.699Z [DEBUG] Checking for native installer update to version 2.1.133
+2026-05-08T07:00:43.703Z [DEBUG] Version 2.1.133 already installed, updating symlink
+2026-05-08T07:00:43.705Z [DEBUG] Successfully updated to version 2.1.133
+2026-05-08T07:00:44.918Z [DEBUG] Stream started - received first chunk
+2026-05-08T07:00:45.805Z [DEBUG] [useDeferredValue] Messages deferred by 1 (82→83)
+2026-05-08T07:00:45.808Z [DEBUG] Session environment not yet supported on Windows
+2026-05-08T07:00:45.812Z [DEBUG] Spawning shell without login (-l flag skipped)
+2026-05-08T07:00:45.920Z [DEBUG] autocompact: tokens=42385 threshold=167000 effectiveWindow=180000
+2026-05-08T07:00:45.921Z [DEBUG] Tool search disabled for model 'claude-haiku-4-5-20251001': model does not support tool_reference blocks. This feature is only available on Claude Sonnet 4+, Opus 4+, and newer models.
+2026-05-08T07:00:45.922Z [DEBUG] attribution header x-anthropic-billing-header: cc_version=2.1.101.995; cc_entrypoint=cli; cch=00000;
+2026-05-08T07:00:45.922Z [DEBUG] [API:request] Creating client, ANTHROPIC_CUSTOM_HEADERS present: false, has Authorization header: false
+2026-05-08T07:00:45.923Z [DEBUG] [API:auth] OAuth token check starting
+2026-05-08T07:00:45.923Z [DEBUG] [API:auth] OAuth token check complete
+2026-05-08T07:00:45.924Z [DEBUG] [API REQUEST] /v1/messages x-client-request-id=5dd06eb2-16fc-420d-b315-b2bf1d5cd70e source=agent:builtin:Explore
+2026-05-08T07:00:45.925Z [DEBUG] [useDeferredValue] Messages deferred by 1 (83→84)
+2026-05-08T07:00:46.976Z [DEBUG] Stream started - received first chunk
+2026-05-08T07:00:47.208Z [DEBUG] executePermissionRequestHooks called for tool: Bash
+2026-05-08T07:00:47.209Z [DEBUG] [useDeferredValue] Messages deferred by 1 (84→85)
+2026-05-08T07:00:47.214Z [DEBUG] [useDeferredValue] Messages deferred by 1 (84→85)
+2026-05-08T07:00:47.216Z [DEBUG] High write ratio: blit=0, write=1786 (100.0% writes), screen=42x120
+2026-05-08T07:00:49.775Z [DEBUG] [FileIndex] getProjectFiles called, respectGitignore=true
+2026-05-08T07:00:49.776Z [DEBUG] [FileIndex] getFilesUsingGit called
+2026-05-08T07:00:49.776Z [DEBUG] [FileIndex] not a git repo, returning null
+2026-05-08T07:00:49.779Z [DEBUG] High write ratio: blit=0, write=1722 (100.0% writes), screen=36x120
+2026-05-08T07:00:49.781Z [DEBUG] [FileIndex] git ls-files returned null, falling back to ripgrep
+2026-05-08T07:00:49.784Z [DEBUG] AutoUpdaterWrapper: Installation type: native
+2026-05-08T07:00:49.786Z [DEBUG] Session environment not yet supported on Windows
+2026-05-08T07:00:49.789Z [DEBUG] Spawning shell without login (-l flag skipped)
+2026-05-08T07:00:49.895Z [DEBUG] Checking for native installer update to version 2.1.133
+2026-05-08T07:00:49.898Z [DEBUG] Version 2.1.133 already installed, updating symlink
+2026-05-08T07:00:49.899Z [DEBUG] Successfully updated to version 2.1.133
+2026-05-08T07:00:50.026Z [DEBUG] autocompact: tokens=42629 threshold=167000 effectiveWindow=180000
+2026-05-08T07:00:50.026Z [DEBUG] Tool search disabled for model 'claude-haiku-4-5-20251001': model does not support tool_reference blocks. This feature is only available on Claude Sonnet 4+, Opus 4+, and newer models.
+2026-05-08T07:00:50.028Z [DEBUG] attribution header x-anthropic-billing-header: cc_version=2.1.101.995; cc_entrypoint=cli; cch=00000;
+2026-05-08T07:00:50.029Z [DEBUG] [API:request] Creating client, ANTHROPIC_CUSTOM_HEADERS present: false, has Authorization header: false
+2026-05-08T07:00:50.029Z [DEBUG] [API:auth] OAuth token check starting
+2026-05-08T07:00:50.030Z [DEBUG] [API:auth] OAuth token check complete
+2026-05-08T07:00:50.033Z [DEBUG] [API REQUEST] /v1/messages x-client-request-id=721d0dce-70d8-40bf-a97a-897fc20c606e source=agent:builtin:Explore
+2026-05-08T07:00:50.035Z [DEBUG] [useDeferredValue] Messages deferred by 1 (85→86)
+2026-05-08T07:00:51.359Z [DEBUG] rg error (signal=undefined, code=2, stderr: rg: .\Application Data: Access is denied. (os error 5)
+rg: .\Cookies: Access is denied. (os error 5)
+rg: .\AppData\Local\Application Data: Access is denied. (os error 5)
+rg: .\Local Settings: Access is denied. (os error 5)
+rg: .\AppData\Local\History: Access is denied. (os error 5)
+rg: .\My Documents: Access is denied. (os error 5)
+rg: .\NetHood: Access is denied. (os error 5)
+rg: .\AppData\Local\Temporary Internet Files: Access is denied. (os error 5)
+rg: .\PrintHood: Access is denied. (os error 5)
+rg: .\Recent: Access is denied. (os error 5)
+rg: .\SendTo: Access is denied. (os error 5)
+rg: .\Start Menu: Access is denied. (os error 5)
+rg: .\Templates: Access is denied. (os error 5)
+rg: .\AppData\Local\Microsoft\Windows\Temporary Internet Files: Access is denied. (os error 5)
+rg: .\AppData\Local\Microsoft\Windows\INetCache\Content.IE5: Access is denied. (os error 5)
+rg: .\AppData\Local\Microsoft\Windows\INetCache\Low\Content.IE5: Access is denied. (os error 5)
+rg: .\Documents\My Music: Access is denied. (os error 5)
+rg: .\Documents\My Pictures: The system cannot find the file specified. (os error 2)
+rg: .\Documents\My Videos: Access is denied. (os error 5)
+), 169392 results
+2026-05-08T07:00:56.030Z [DEBUG] [FileIndex] ripgrep: 169392 files in 6249ms
+2026-05-08T07:00:56.040Z [DEBUG] Stream started - received first chunk
+2026-05-08T07:00:56.058Z [DEBUG] [useDeferredValue] Messages deferred by 1 (86→87)
+2026-05-08T07:00:56.102Z [DEBUG] [useDeferredValue] Messages deferred by 1 (87→88)
+2026-05-08T07:00:56.134Z [DEBUG] autocompact: tokens=43038 threshold=167000 effectiveWindow=180000
+2026-05-08T07:00:56.135Z [DEBUG] Tool search disabled for model 'claude-haiku-4-5-20251001': model does not support tool_reference blocks. This feature is only available on Claude Sonnet 4+, Opus 4+, and newer models.
+2026-05-08T07:00:56.136Z [DEBUG] attribution header x-anthropic-billing-header: cc_version=2.1.101.995; cc_entrypoint=cli; cch=00000;
+2026-05-08T07:00:56.137Z [DEBUG] [API:request] Creating client, ANTHROPIC_CUSTOM_HEADERS present: false, has Authorization header: false
+2026-05-08T07:00:56.137Z [DEBUG] [API:auth] OAuth token check starting
+2026-05-08T07:00:56.138Z [DEBUG] [API:auth] OAuth token check complete
+2026-05-08T07:00:56.139Z [DEBUG] [API REQUEST] /v1/messages x-client-request-id=59aa96cf-22c2-441c-bfab-dd49814d1071 source=agent:builtin:Explore
+2026-05-08T07:00:56.261Z [DEBUG] [FileIndex] cache refresh completed in 6486ms
+2026-05-08T07:00:59.755Z [DEBUG] Stream started - received first chunk
+2026-05-08T07:01:07.248Z [DEBUG] [onSubmit] early return: suggestions showing (count=1)
+2026-05-08T07:01:07.261Z [DEBUG] Preserving file permissions: 100666
+2026-05-08T07:01:07.261Z [DEBUG] Writing to temp file: C:\Users\nitye\.claude.json.tmp.9388.1778223667261
+2026-05-08T07:01:07.273Z [DEBUG] Temp file written successfully, size: 25672 bytes
+2026-05-08T07:01:07.274Z [DEBUG] Applied original permissions to temp file
+2026-05-08T07:01:07.274Z [DEBUG] Renaming C:\Users\nitye\.claude.json.tmp.9388.1778223667261 to C:\Users\nitye\.claude.json
+2026-05-08T07:01:07.275Z [DEBUG] File C:\Users\nitye\.claude.json written atomically
+2026-05-08T07:01:07.278Z [DEBUG] High write ratio: blit=0, write=1770 (100.0% writes), screen=35x120
+2026-05-08T07:01:07.279Z [DEBUG] AutoUpdaterWrapper: Installation type: native
+2026-05-08T07:01:07.400Z [DEBUG] Checking for native installer update to version 2.1.133
+2026-05-08T07:01:07.404Z [DEBUG] Version 2.1.133 already installed, updating symlink
+2026-05-08T07:01:07.406Z [DEBUG] Successfully updated to version 2.1.133
+2026-05-08T07:01:19.280Z [DEBUG] LSP Diagnostics: getLSPDiagnosticAttachments called
+2026-05-08T07:01:19.281Z [DEBUG] LSP Diagnostics: Checking registry - 0 pending
+2026-05-08T07:01:19.281Z [DEBUG] Hooks: Found 0 total hooks in registry
+2026-05-08T07:01:19.281Z [DEBUG] Hooks: checkForNewResponses returning 0 responses
+2026-05-08T07:01:19.282Z [DEBUG] autocompact: tokens=19476 threshold=167000 effectiveWindow=180000
+2026-05-08T07:01:19.283Z [DEBUG] Dynamic tool loading: 0/37 deferred tools included
+2026-05-08T07:01:19.284Z [DEBUG] attribution header x-anthropic-billing-header: cc_version=2.1.101.ff7; cc_entrypoint=cli; cch=00000;
+2026-05-08T07:01:19.284Z [DEBUG] [API:request] Creating client, ANTHROPIC_CUSTOM_HEADERS present: false, has Authorization header: false
+2026-05-08T07:01:19.285Z [DEBUG] [API:auth] OAuth token check starting
+2026-05-08T07:01:19.285Z [DEBUG] [API:auth] OAuth token check complete
+2026-05-08T07:01:19.286Z [DEBUG] [API REQUEST] /v1/messages x-client-request-id=8e78134f-93a0-4838-9508-168f493a5d1e source=repl_main_thread
+2026-05-08T07:01:19.287Z [DEBUG] [useDeferredValue] Messages deferred by 1 (88→89)
+2026-05-08T07:01:19.292Z [DEBUG] High write ratio: blit=0, write=1447 (100.0% writes), screen=28x120
+2026-05-08T07:01:19.292Z [DEBUG] Full reset (shrink->below): prevHeight=35, nextHeight=28, viewport=30
+2026-05-08T07:01:19.303Z [DEBUG] [useDeferredValue] Messages deferred by 1 (88→89)
+2026-05-08T07:01:21.342Z [DEBUG] Stream started - received first chunk
+2026-05-08T07:01:22.593Z [DEBUG] [useDeferredValue] Messages deferred by 1 (89→90)
+2026-05-08T07:01:22.598Z [DEBUG] [useDeferredValue] Messages deferred by 1 (89→90)
+2026-05-08T07:01:23.048Z [DEBUG] [useDeferredValue] Messages deferred by 1 (90→91)
+2026-05-08T07:01:23.063Z [DEBUG] [useDeferredValue] Messages deferred by 1 (90→91)
+2026-05-08T07:01:23.437Z [DEBUG] [useDeferredValue] Messages deferred by 1 (91→92)
+2026-05-08T07:01:23.449Z [DEBUG] High write ratio: blit=0, write=1661 (100.0% writes), screen=35x120
+2026-05-08T07:01:23.756Z [DEBUG] [useDeferredValue] Messages deferred by 1 (92→93)
+2026-05-08T07:01:23.759Z [DEBUG] [useDeferredValue] Messages deferred by 1 (92→93)
+2026-05-08T07:01:23.774Z [DEBUG] [useDeferredValue] Messages deferred by 1 (93→94)
+2026-05-08T07:01:23.832Z [DEBUG] [useDeferredValue] Messages deferred by 1 (94→95)
+2026-05-08T07:01:23.840Z [DEBUG] LSP Diagnostics: getLSPDiagnosticAttachments called
+2026-05-08T07:01:23.841Z [DEBUG] LSP Diagnostics: Checking registry - 0 pending
+2026-05-08T07:01:23.841Z [DEBUG] Hooks: Found 0 total hooks in registry
+2026-05-08T07:01:23.841Z [DEBUG] Hooks: checkForNewResponses returning 0 responses
+2026-05-08T07:01:23.843Z [DEBUG] [useDeferredValue] Messages deferred by 1 (94→95)
+2026-05-08T07:01:23.846Z [DEBUG] [useDeferredValue] Messages deferred by 1 (94→95)
+2026-05-08T07:01:23.861Z [DEBUG] autocompact: tokens=21750 threshold=167000 effectiveWindow=180000
+2026-05-08T07:01:23.862Z [DEBUG] Dynamic tool loading: 0/37 deferred tools included
+2026-05-08T07:01:23.863Z [DEBUG] attribution header x-anthropic-billing-header: cc_version=2.1.101.ff7; cc_entrypoint=cli; cch=00000;
+2026-05-08T07:01:23.864Z [DEBUG] [API:request] Creating client, ANTHROPIC_CUSTOM_HEADERS present: false, has Authorization header: false
+2026-05-08T07:01:23.864Z [DEBUG] [API:auth] OAuth token check starting
+2026-05-08T07:01:23.864Z [DEBUG] [API:auth] OAuth token check complete
+2026-05-08T07:01:23.866Z [DEBUG] [API REQUEST] /v1/messages x-client-request-id=8ce8a64b-57c5-4a21-bea4-4d6a220d821e source=repl_main_thread
+2026-05-08T07:01:27.164Z [DEBUG] Stream started - received first chunk
+2026-05-08T07:01:30.125Z [DEBUG] [useDeferredValue] Messages deferred by 1 (95→96)
+2026-05-08T07:01:31.010Z [DEBUG] [useDeferredValue] Messages deferred by 1 (96→97)
+2026-05-08T07:01:56.002Z [DEBUG] [useDeferredValue] Messages deferred by 1 (97→98)
+2026-05-08T07:01:56.010Z [DEBUG] High write ratio: blit=0, write=1750 (100.0% writes), screen=36x120
+2026-05-08T07:01:56.017Z [DEBUG] Permission suggestions for Write: [
+  {
+    "type": "setMode",
+    "mode": "acceptEdits",
+    "destination": "session"
+  }
+]
+2026-05-08T07:01:56.018Z [DEBUG] executePermissionRequestHooks called for tool: Write
+2026-05-08T07:01:56.021Z [DEBUG] [useDeferredValue] Messages deferred by 1 (97→98)
+2026-05-08T07:01:56.107Z [DEBUG] [useDeferredValue] Messages deferred by 1 (97→98)
+2026-05-08T07:01:56.141Z [DEBUG] High write ratio: blit=0, write=5581 (100.0% writes), screen=144x120
+2026-05-08T07:01:56.153Z [DEBUG] [useDeferredValue] Messages deferred by 1 (97→98)
+2026-05-08T07:01:56.161Z [DEBUG] [useDeferredValue] Messages deferred by 1 (97→98)
+2026-05-08T07:01:56.181Z [DEBUG] High write ratio: blit=3120, write=4419 (58.6% writes), screen=146x120
+2026-05-08T07:02:10.372Z [DEBUG] [FileIndex] getProjectFiles called, respectGitignore=true
+2026-05-08T07:02:10.372Z [DEBUG] [FileIndex] getFilesUsingGit called
+2026-05-08T07:02:10.372Z [DEBUG] [FileIndex] not a git repo, returning null
+2026-05-08T07:02:10.376Z [DEBUG] High write ratio: blit=0, write=1770 (100.0% writes), screen=39x120
+2026-05-08T07:02:10.390Z [DEBUG] [FileIndex] git ls-files returned null, falling back to ripgrep
+2026-05-08T07:02:10.394Z [DEBUG] AutoUpdaterWrapper: Installation type: native
+2026-05-08T07:02:10.395Z [DEBUG] FileHistory: Tracked file modification for C:\Users\nitye\CLAUDE.md
+2026-05-08T07:02:10.396Z [DEBUG] Writing to temp file: C:\Users\nitye\CLAUDE.md.tmp.9388.1778223730396
+2026-05-08T07:02:10.397Z [DEBUG] Temp file written successfully, size: 3568 bytes
+2026-05-08T07:02:10.397Z [DEBUG] Renaming C:\Users\nitye\CLAUDE.md.tmp.9388.1778223730396 to C:\Users\nitye\CLAUDE.md
+2026-05-08T07:02:10.397Z [DEBUG] File C:\Users\nitye\CLAUDE.md written atomically
+2026-05-08T07:02:10.400Z [DEBUG] LSP Diagnostics: getLSPDiagnosticAttachments called
+2026-05-08T07:02:10.401Z [DEBUG] LSP Diagnostics: Checking registry - 0 pending
+2026-05-08T07:02:10.401Z [DEBUG] Hooks: Found 0 total hooks in registry
+2026-05-08T07:02:10.401Z [DEBUG] Hooks: checkForNewResponses returning 0 responses
+2026-05-08T07:02:10.402Z [DEBUG] autocompact: tokens=24664 threshold=167000 effectiveWindow=180000
+2026-05-08T07:02:10.404Z [DEBUG] Dynamic tool loading: 0/37 deferred tools included
+2026-05-08T07:02:10.405Z [DEBUG] attribution header x-anthropic-billing-header: cc_version=2.1.101.ff7; cc_entrypoint=cli; cch=00000;
+2026-05-08T07:02:10.406Z [DEBUG] [API:request] Creating client, ANTHROPIC_CUSTOM_HEADERS present: false, has Authorization header: false
+2026-05-08T07:02:10.407Z [DEBUG] [API:auth] OAuth token check starting
+2026-05-08T07:02:10.408Z [DEBUG] [API:auth] OAuth token check complete
+2026-05-08T07:02:10.410Z [DEBUG] [API REQUEST] /v1/messages x-client-request-id=8a5f95fb-60ca-4281-9086-45620a6dccda source=repl_main_thread
+2026-05-08T07:02:10.411Z [DEBUG] [useDeferredValue] Messages deferred by 1 (98→99)
+2026-05-08T07:02:10.417Z [DEBUG] [lspRecommendation] Looking for LSP plugins for .md
+2026-05-08T07:02:10.423Z [DEBUG] [useDeferredValue] Messages deferred by 1 (98→99)
+2026-05-08T07:02:10.571Z [DEBUG] Checking for native installer update to version 2.1.133
+2026-05-08T07:02:10.575Z [DEBUG] Version 2.1.133 already installed, updating symlink
+2026-05-08T07:02:10.576Z [DEBUG] Successfully updated to version 2.1.133
+2026-05-08T07:02:12.034Z [DEBUG] rg error (signal=undefined, code=2, stderr: rg: .\Application Data: Access is denied. (os error 5)
+rg: .\Cookies: Access is denied. (os error 5)
+rg: .\AppData\Local\Application Data: Access is denied. (os error 5)
+rg: .\Local Settings: Access is denied. (os error 5)
+rg: .\AppData\Local\History: Access is denied. (os error 5)
+rg: .\My Documents: Access is denied. (os error 5)
+rg: .\AppData\Local\Temporary Internet Files: Access is denied. (os error 5)
+rg: .\NetHood: Access is denied. (os error 5)
+rg: .\PrintHood: Access is denied. (os error 5)
+rg: .\Recent: Access is denied. (os error 5)
+rg: .\SendTo: Access is denied. (os error 5)
+rg: .\Start Menu: Access is denied. (os error 5)
+rg: .\Templates: Access is denied. (os error 5)
+rg: .\Documents\My Music: Access is denied. (os error 5)
+rg: .\Documents\My Pictures: The system cannot find the file specified. (os error 2)
+rg: .\Documents\My Videos: Access is denied. (os error 5)
+rg: .\AppData\Local\Microsoft\Windows\Temporary Internet Files: Access is denied. (os error 5)
+rg: .\AppData\Local\Microsoft\Windows\INetCache\Content.IE5: Access is denied. (os error 5)
+rg: .\AppData\Local\Microsoft\Windows\INetCache\Low\Content.IE5: Access is denied. (os error 5)
+), 185132 results
+2026-05-08T07:02:17.180Z [DEBUG] [FileIndex] ripgrep: 185132 files in 6790ms
+2026-05-08T07:02:17.198Z [DEBUG] Stream started - received first chunk
+2026-05-08T07:02:17.229Z [DEBUG] autocompact: tokens=24209 threshold=167000 effectiveWindow=180000
+2026-05-08T07:02:17.232Z [DEBUG] Dynamic tool loading: 0/37 deferred tools included
+2026-05-08T07:02:17.233Z [DEBUG] attribution header x-anthropic-billing-header: cc_version=2.1.101.ff7; cc_entrypoint=cli; cch=00000;
+2026-05-08T07:02:17.234Z [DEBUG] [API:request] Creating client, ANTHROPIC_CUSTOM_HEADERS present: false, has Authorization header: false
+2026-05-08T07:02:17.234Z [DEBUG] [API:auth] OAuth token check starting
+2026-05-08T07:02:17.240Z [DEBUG] Preserving file permissions: 100666
+2026-05-08T07:02:17.240Z [DEBUG] Writing to temp file: C:\Users\nitye\.claude.json.tmp.9388.1778223737240
+2026-05-08T07:02:17.242Z [DEBUG] Temp file written successfully, size: 25699 bytes
+2026-05-08T07:02:17.242Z [DEBUG] Applied original permissions to temp file
+2026-05-08T07:02:17.242Z [DEBUG] Renaming C:\Users\nitye\.claude.json.tmp.9388.1778223737240 to C:\Users\nitye\.claude.json
+2026-05-08T07:02:17.243Z [DEBUG] File C:\Users\nitye\.claude.json written atomically
+2026-05-08T07:02:17.244Z [DEBUG] [API:auth] OAuth token check complete
+2026-05-08T07:02:17.246Z [DEBUG] [API REQUEST] /v1/messages x-client-request-id=ae555887-eb96-43c2-a828-5e5a0507028f source=prompt_suggestion
+2026-05-08T07:02:17.251Z [DEBUG] [useDeferredValue] Messages deferred by 2 (99→101)
+2026-05-08T07:02:17.267Z [DEBUG] [useDeferredValue] Messages deferred by 2 (99→101)
+2026-05-08T07:02:17.286Z [DEBUG] [useDeferredValue] Messages deferred by 2 (99→101)
+2026-05-08T07:02:17.291Z [DEBUG] [useDeferredValue] Messages deferred by 2 (99→101)
+2026-05-08T07:02:17.293Z [DEBUG] High write ratio: blit=0, write=1918 (100.0% writes), screen=46x120
+2026-05-08T07:02:17.298Z [DEBUG] [API:request] Creating client, ANTHROPIC_CUSTOM_HEADERS present: false, has Authorization header: false
+2026-05-08T07:02:17.298Z [DEBUG] [API:auth] OAuth token check starting
+2026-05-08T07:02:17.300Z [DEBUG] [API:auth] OAuth token check complete
+2026-05-08T07:02:17.300Z [DEBUG] [API REQUEST] /v1/messages/count_tokens x-client-request-id=453d35c5-49a2-4088-a909-5d3f3afccc8b source=count_tokens
+2026-05-08T07:02:17.519Z [DEBUG] Tool search disabled: ToolSearchTool is not available (may have been disallowed via disallowedTools).
+2026-05-08T07:02:17.610Z [DEBUG] [FileIndex] cache refresh completed in 7238ms
+2026-05-08T07:02:19.249Z [DEBUG] Stream started - received first chunk
+2026-05-08T07:02:19.306Z [DEBUG] Forked agent [prompt_suggestion] received message: type=assistant
+2026-05-08T07:02:19.366Z [DEBUG] Forked agent [prompt_suggestion] finished: 1 messages, types=[assistant], totalUsage: input=295 output=5 cacheRead=23718 cacheCreate=213
+2026-05-08T07:02:19.380Z [DEBUG] [Speculation] enabled=false
+2026-05-08T07:02:25.211Z [DEBUG] Preserving file permissions: 100666
+2026-05-08T07:02:25.211Z [DEBUG] Writing to temp file: C:\Users\nitye\.claude.json.tmp.9388.1778223745211
+2026-05-08T07:02:25.223Z [DEBUG] Temp file written successfully, size: 25744 bytes
+2026-05-08T07:02:25.223Z [DEBUG] Applied original permissions to temp file
+2026-05-08T07:02:25.224Z [DEBUG] Renaming C:\Users\nitye\.claude.json.tmp.9388.1778223745211 to C:\Users\nitye\.claude.json
+2026-05-08T07:02:25.225Z [DEBUG] File C:\Users\nitye\.claude.json written atomically
+2026-05-08T07:02:25.227Z [DEBUG] [useDeferredValue] Messages deferred by 2 (101→103)
+2026-05-08T07:02:25.236Z [DEBUG] [FileIndex] getProjectFiles called, respectGitignore=true
+2026-05-08T07:02:25.236Z [DEBUG] [FileIndex] getFilesUsingGit called
+2026-05-08T07:02:25.236Z [DEBUG] [FileIndex] not a git repo, returning null
+2026-05-08T07:02:25.237Z [DEBUG] [useDeferredValue] Messages deferred by 2 (101→103)
+2026-05-08T07:02:25.240Z [DEBUG] High write ratio: blit=0, write=2764 (100.0% writes), screen=63x120
+2026-05-08T07:02:25.242Z [DEBUG] [FileIndex] git ls-files returned null, falling back to ripgrep
+2026-05-08T07:02:25.246Z [DEBUG] AutoUpdaterWrapper: Installation type: native
+2026-05-08T07:02:25.364Z [DEBUG] Checking for native installer update to version 2.1.133
+2026-05-08T07:02:25.368Z [DEBUG] Version 2.1.133 already installed, updating symlink
+2026-05-08T07:02:25.369Z [DEBUG] Successfully updated to version 2.1.133
+2026-05-08T07:02:26.710Z [DEBUG] rg error (signal=undefined, code=2, stderr: rg: .\Application Data: Access is denied. (os error 5)
+rg: .\Cookies: Access is denied. (os error 5)
+rg: .\Local Settings: Access is denied. (os error 5)
+rg: .\My Documents: Access is denied. (os error 5)
+rg: .\NetHood: Access is denied. (os error 5)
+rg: .\PrintHood: Access is denied. (os error 5)
+rg: .\Recent: Access is denied. (os error 5)
+rg: .\SendTo: Access is denied. (os error 5)
+rg: .\Start Menu: Access is denied. (os error 5)
+rg: .\Templates: Access is denied. (os error 5)
+rg: .\AppData\Local\Application Data: Access is denied. (os error 5)
+rg: .\AppData\Local\History: Access is denied. (os error 5)
+rg: .\AppData\Local\Temporary Internet Files: Access is denied. (os error 5)
+rg: .\Documents\My Music: Access is denied. (os error 5)
+rg: .\Documents\My Pictures: The system cannot find the file specified. (os error 2)
+rg: .\Documents\My Videos: Access is denied. (os error 5)
+rg: .\AppData\Local\Microsoft\Windows\Temporary Internet Files: Access is denied. (os error 5)
+rg: .\AppData\Local\Microsoft\Windows\INetCache\Content.IE5: Access is denied. (os error 5)
+rg: .\AppData\Local\Microsoft\Windows\INetCache\Low\Content.IE5: Access is denied. (os error 5)
+), 183605 results
+2026-05-08T07:02:31.821Z [DEBUG] [FileIndex] ripgrep: 183605 files in 6579ms
+2026-05-08T07:02:31.837Z [DEBUG] FileHistory: Making snapshot for message c5d154c4-62c3-4109-850f-5260006a332a
+2026-05-08T07:02:31.859Z [DEBUG] Tool search disabled for model 'claude-haiku-4-5-20251001': model does not support tool_reference blocks. This feature is only available on Claude Sonnet 4+, Opus 4+, and newer models.
+2026-05-08T07:02:31.861Z [DEBUG] attribution header x-anthropic-billing-header: cc_version=2.1.101.eb6; cc_entrypoint=cli; cch=00000;
+2026-05-08T07:02:31.862Z [DEBUG] [API:request] Creating client, ANTHROPIC_CUSTOM_HEADERS present: false, has Authorization header: false
+2026-05-08T07:02:31.863Z [DEBUG] [API:auth] OAuth token check starting
+2026-05-08T07:02:31.866Z [DEBUG] Preserving file permissions: 100666
+2026-05-08T07:02:31.867Z [DEBUG] Writing to temp file: C:\Users\nitye\.claude.json.tmp.9388.1778223751866
+2026-05-08T07:02:31.867Z [DEBUG] Temp file written successfully, size: 25744 bytes
+2026-05-08T07:02:31.868Z [DEBUG] Applied original permissions to temp file
+2026-05-08T07:02:31.868Z [DEBUG] Renaming C:\Users\nitye\.claude.json.tmp.9388.1778223751866 to C:\Users\nitye\.claude.json
+2026-05-08T07:02:31.869Z [DEBUG] File C:\Users\nitye\.claude.json written atomically
+2026-05-08T07:02:31.870Z [DEBUG] [API:auth] OAuth token check complete
+2026-05-08T07:02:31.870Z [DEBUG] [API REQUEST] /v1/messages x-client-request-id=29bdfb17-a178-4b55-9a11-0292328e4287 source=generate_session_title
+2026-05-08T07:02:31.876Z [DEBUG] [useDeferredValue] Messages deferred by 2 (103→105)
+2026-05-08T07:02:31.900Z [DEBUG] [useDeferredValue] Messages deferred by 2 (103→105)
+2026-05-08T07:02:31.907Z [DEBUG] [useDeferredValue] Messages deferred by 2 (103→105)
+2026-05-08T07:02:31.915Z [DEBUG] FileHistory: Added snapshot for c5d154c4-62c3-4109-850f-5260006a332a, tracking 1 files
+2026-05-08T07:02:32.104Z [DEBUG] [FileIndex] cache refresh completed in 6868ms
+2026-05-08T07:02:32.742Z [DEBUG] Stream started - received first chunk
+2026-05-08T07:02:35.042Z [DEBUG] LSP Diagnostics: getLSPDiagnosticAttachments called
+2026-05-08T07:02:35.042Z [DEBUG] LSP Diagnostics: Checking registry - 0 pending
+2026-05-08T07:02:35.043Z [DEBUG] Hooks: Found 0 total hooks in registry
+2026-05-08T07:02:35.043Z [DEBUG] Hooks: checkForNewResponses returning 0 responses
+2026-05-08T07:02:35.044Z [DEBUG] FileHistory: Making snapshot for message 017a26a3-40d1-4eb4-938f-2d54de30571d
+2026-05-08T07:02:35.045Z [DEBUG] autocompact: tokens=24006 threshold=167000 effectiveWindow=180000
+2026-05-08T07:02:35.046Z [DEBUG] Dynamic tool loading: 0/37 deferred tools included
+2026-05-08T07:02:35.047Z [DEBUG] attribution header x-anthropic-billing-header: cc_version=2.1.101.ff7; cc_entrypoint=cli; cch=00000;
+2026-05-08T07:02:35.048Z [DEBUG] [API:request] Creating client, ANTHROPIC_CUSTOM_HEADERS present: false, has Authorization header: false
+2026-05-08T07:02:35.048Z [DEBUG] [API:auth] OAuth token check starting
+2026-05-08T07:02:35.048Z [DEBUG] [API:auth] OAuth token check complete
+2026-05-08T07:02:35.050Z [DEBUG] [API REQUEST] /v1/messages x-client-request-id=05c323cf-60c2-4545-8d33-775cfa10327a source=repl_main_thread
+2026-05-08T07:02:35.050Z [DEBUG] [useDeferredValue] Messages deferred by 1 (105→106)
+2026-05-08T07:02:35.056Z [DEBUG] [useDeferredValue] Messages deferred by 1 (105→106)
+2026-05-08T07:02:35.058Z [DEBUG] FileHistory: Added snapshot for 017a26a3-40d1-4eb4-938f-2d54de30571d, tracking 1 files
+2026-05-08T07:02:35.059Z [DEBUG] [useDeferredValue] Messages deferred by 1 (105→106)
+2026-05-08T07:02:35.079Z [DEBUG] High write ratio: blit=0, write=3165 (100.0% writes), screen=70x120
+2026-05-08T07:02:36.643Z [DEBUG] Stream started - received first chunk
+2026-05-08T07:02:37.462Z [DEBUG] [useDeferredValue] Messages deferred by 1 (106→107)
+2026-05-08T07:02:37.468Z [DEBUG] [useDeferredValue] Messages deferred by 1 (106→107)
+2026-05-08T07:02:38.151Z [DEBUG] [useDeferredValue] Messages deferred by 1 (107→108)
+2026-05-08T07:02:38.215Z [DEBUG] autocompact: tokens=24451 threshold=167000 effectiveWindow=180000
+2026-05-08T07:02:38.218Z [DEBUG] Dynamic tool loading: 0/37 deferred tools included
+2026-05-08T07:02:38.219Z [DEBUG] attribution header x-anthropic-billing-header: cc_version=2.1.101.ff7; cc_entrypoint=cli; cch=00000;
+2026-05-08T07:02:38.219Z [DEBUG] [API:request] Creating client, ANTHROPIC_CUSTOM_HEADERS present: false, has Authorization header: false
+2026-05-08T07:02:38.220Z [DEBUG] [API:auth] OAuth token check starting
+2026-05-08T07:02:38.222Z [DEBUG] Preserving file permissions: 100666
+2026-05-08T07:02:38.222Z [DEBUG] Writing to temp file: C:\Users\nitye\.claude.json.tmp.9388.1778223758222
+2026-05-08T07:02:38.223Z [DEBUG] Temp file written successfully, size: 25744 bytes
+2026-05-08T07:02:38.223Z [DEBUG] Applied original permissions to temp file
+2026-05-08T07:02:38.223Z [DEBUG] Renaming C:\Users\nitye\.claude.json.tmp.9388.1778223758222 to C:\Users\nitye\.claude.json
+2026-05-08T07:02:38.224Z [DEBUG] File C:\Users\nitye\.claude.json written atomically
+2026-05-08T07:02:38.224Z [DEBUG] [API:auth] OAuth token check complete
+2026-05-08T07:02:38.226Z [DEBUG] [API REQUEST] /v1/messages x-client-request-id=626ab499-9fac-4bdc-8b9e-63655de7d8d0 source=prompt_suggestion
+2026-05-08T07:02:38.236Z [DEBUG] High write ratio: blit=0, write=3155 (100.0% writes), screen=69x120
+2026-05-08T07:02:40.156Z [DEBUG] Stream started - received first chunk
+2026-05-08T07:02:40.488Z [DEBUG] Forked agent [prompt_suggestion] received message: type=assistant
+2026-05-08T07:02:40.596Z [DEBUG] Forked agent [prompt_suggestion] finished: 1 messages, types=[assistant], totalUsage: input=295 output=8 cacheRead=24057 cacheCreate=83
+2026-05-08T07:02:40.599Z [DEBUG] [Speculation] enabled=false
